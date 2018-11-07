@@ -1,0 +1,34 @@
+.bg_template .radio{
+	position:absolute;
+	top:0;
+}
+.bg_template{
+	display:inline-block;
+	padding:2px;
+	margin-right:30px;
+	border:1px solid #e4e4e4;
+}
+.bg_store{float:left;display:inline-block;
+	padding:2px;border:1px solid transparent;
+	margin-right:25px;margin-bottom:12px;}
+.bg_store.active{border:1px solid #ff0000}
+.bg_template label{
+	width: 40px;
+	height:30px;
+	float:left;
+	text-indent:-9999px;
+	cursor:pointer;
+	margin:0;
+}
+.bg_store .radio input[type="radio"],.bg_template .radio input[type="radio"]{margin-left:0}
+.bg_store label{margin-right:5px;float:left}
+.bg_store > img{float:left}
+#main .bg_store .radio{padding-top:1px;}
+.bg_template.active{border:1px solid #ff0000}
+.bg_template .theme1{background-color:#fff;}
+.bg_template .theme2{background-color:#d9001f;}
+.bg_template .theme3{background-color:#9abb17;}
+.bg_template .theme4{background-color:#7c34e9;}
+.bg_template .theme5{background-color:#ff8b0e;}
+.bg_template .theme6{background-color:#fe4579;}
+.line-bottom {height:1px;border-top:1px solid #ddd;padding-bottom:10px;}

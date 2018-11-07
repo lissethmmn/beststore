@@ -1,0 +1,38 @@
+{extends file='parent:_partials/footer.tpl'}
+    {hook h='displayWrapperBottom'}
+    <div class="footer-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div id="logo-best" itemprop="description">
+                        <img class="img-responsive" src="https://beststore.cl/version17/img/cms/logo_60_alt.png" alt="Best Store">
+                    </div>
+                    {block name='hook_footer_before'}
+                    {hook h='displayFooterBefore'}
+                    {/block}
+                </div>
+                <div class="col-md-8">
+                    {block name='hook_footer'}
+                    {hook h='displayFooter'}
+                    {/block}
+                </div>
+                <div class="col-md-4 footer-map">
+                </div>
+            </div>
+            <div class="row">
+                {block name='hook_footer_after'}
+                {hook h='displayFooterAfter'}
+                {/block}
+            </div>
+        </div>
+        <div class="container">
+            <div class="bottom-footer">
+                {hook h='displayBottomFooter'}
+            </div>
+            <div class="download">
+                <div class="apple">apple</div>
+                <div class="google">goolge</div>
+                <div class="microsoft">microsoft</div>
+            </div>
+        </div>
+    </div>

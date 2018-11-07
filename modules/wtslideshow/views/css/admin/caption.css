@@ -1,0 +1,45 @@
+.dragthis {
+    display:inline-block;
+    height: auto;
+	cursor:move;
+	width:auto;
+}
+
+.dragthis ul 
+{
+padding:0;
+}
+.dropHere .layer_selected {
+box-shadow: 0 0 8px #DDE573;
+-webkit-box-shadow: 0 0 8px #DDE573;
+-moz-box-shadow: 0 0 8px #DDE573;
+
+}
+.dragthis span {
+    float: right;
+}
+.dragthis span:after {
+    content: "px";
+}
+.dragthis li {clear: both;list-style:none}
+#dropHere {position:relative;background-repeat:no-repeat;background-size:cover;background-position:center top;}
+.cs-section {padding-top:30px;clear:both}
+.editor-button-layer ul li{float:left;margin-right:20px;list-style:none;margin-bottom:10px;}
+.group-layer-config{clear: both;padding-top: 35px;}
+.layer-transitions .form-group {margin-bottom:5px}
+.layer-transitions {padding-top:25px}
+.layer-transitions h3 ,.group-layer-config h3{font-weight:bold}
+.editor-button-layer ul li.button-right {float:right}
+.layer-sort .form-group .control-label{text-align:left}
+.layer-ms-delay{float: left;
+margin-right: 5px;}
+.delayin_selected{border:2px solid #f90}
+.layer-order{font-weight: bold;
+margin-right: 5px;}
+.layer-sort .form-group{margin-bottom:5px}
+.captext{resize:auto !important}
+.dragthis .ls-l{ position: static !important;}
+.wrapper-loading{ position:absolute;top:50%;right:100px;}
+.m-success{text-align:center;background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #3c763d;font-size:16px;padding:5px;}

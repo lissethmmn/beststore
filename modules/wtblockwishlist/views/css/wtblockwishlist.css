@@ -1,0 +1,71 @@
+.top-wishlists{float: right; position: relative; top: -15px; }
+.top-wishlists a.icon{color: #fff;position: relative;top: 0; padding: 10px 0;}
+.button_wishlist {
+    color: #2a3847;
+    padding: 8px 15px;
+    background: #f1f1f1;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.add-to-wishlist-button-product{margin-top:15px;}
+#wishlist_block 
+{
+	background:#fff;
+	top: 70px;
+	width: 260px;
+	padding: 0 10px;
+	position: absolute;
+	z-index:9999;
+	border: 1px solid #dfdfdf;
+	display:none;
+	border:1px solid #dfdfdf;
+}
+
+#wishlist_block .text-uppercase{
+	color:#2a3847;
+	font-family: 'Exo 2', sans-serif;
+	font-size:18px;
+	font-weight:600;
+	margin-top: 15px;
+	}
+#wishlist_block:after{content: "";
+    background: url(../img/up.png)no-repeat;
+    position: absolute;
+        top: -11px;
+    left: 45%;
+    height: 11px;
+    width: 25px;
+	    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;}
+	
+#wishlist_block ul{margin: 10px 0;}
+#wishlist_block ul li{clear: both; padding: 5px 0; width: 100%; border-bottom: 1px solid #f5f5f5;} 
+#wishlist_block ul li .quantity-formated{float:left;}
+#wishlist_block ul li .product-title{float: left;margin: 0 10px;}
+#wishlist_block ul li .ajax_cart_block_remove_link{float:left; position:absolute;}
+#wishlist_block ul li .ajax_cart_block_remove_link i{font-size:0;}
+#wishlist_block ul li .ajax_cart_block_remove_link i:before
+{
+    color: #2a3847;
+    font-family: FontAwesome;
+    content: "\f00d";
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+}
+#wishlist_block ul li .product_image{float: left; width:35%;}
+#wishlist_block ul li .infor{float: left; width: 65%;padding-top: 3px;}
+
+.header-sticky .top-wishlists{position: fixed !important;
+    top: 0;
+    right: 140px;
+    z-index: 999;}
+.header-sticky .top-wishlists a.icon{top: 15px;}
+.header-sticky #wishlist_block{left: -44px; top: 49px;}
+
+#wishlist_block{top: 35px; right: -65px;}

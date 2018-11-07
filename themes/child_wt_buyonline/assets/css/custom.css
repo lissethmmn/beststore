@@ -1,0 +1,183 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+h3.category-title {
+    background: #666666 !important;
+}
+select#search_category {
+    background: #666666;
+}
+.level-1.menu-banner a {
+    color: #161616 !important;
+}
+
+.cms-page-link:hover {
+    color: #FF6600 !important;
+}
+
+#footer_information .material-icons {
+    color: #FFf;
+}
+div#logo-best {
+    padding-bottom: 1rem;
+}
+.sub-cat-ul a {
+    color: #161616 !important;
+}
+
+.menu-dropdown.cat-drop-menu {
+    background: #ffffff !important;
+}
+
+select#search_category,
+input#search_query_top::placeholder {
+    color: #FFF !important;
+}
+
+.button-search:hover {
+    background: #FF6600 !important;
+}
+
+.btn-primary {
+    background-color: #ff6600 !important;
+}
+.product-name {
+    font-size: 1rem !important;
+}
+.btn-primary:hover {
+    background-color: #666666 !important;
+}
+
+#wt-special-products {
+    margin-bottom: 1em;
+}
+
+#search_filters a {
+    font-size: 0.75rem !important;
+}
+
+#module-khipupayment-bankselect div#content-wrapper {
+    height: 10rem !important;
+}
+
+body#module-supercheckout-supercheckout #header .header-nav {
+    padding: 0 !important;
+}
+
+/*.medium-button {
+    background-color: #666666 !important;
+}*/
+
+/* Sweep To Top */
+.hvr-sweep-to-top {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.hvr-sweep-to-top:before {
+    content: "" !important;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #f60;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-sweep-to-top:hover,
+.hvr-sweep-to-top:focus,
+.hvr-sweep-to-top:active {
+    color: white;
+}
+
+.hvr-sweep-to-top:hover:before,
+.hvr-sweep-to-top:focus:before,
+.hvr-sweep-to-top:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+form#searchbox {
+    border-color: #ff6600 !important;
+}
+
+.tabs .nav-tabs .nav-link.active {
+    background: #666666 !important;
+}
+
+.tabs .nav-tabs .nav-link:hover {
+    background: #666666 !important;
+}
+
+.tabs .nav-tabs {
+    border-bottom: 2px solid #ff6600 !important;
+}
+
+div#wt_scroll_top {
+    background: #ff6600 !important;
+    color: #fff !important;
+    border: 2px solid #666666;
+}
+.footer-container .links {
+    display: inherit;
+    font-family: 'Muli',sans-serif;
+    font-size: 14px;
+    line-height: 2;
+}
+span.footer-contact {
+    padding-left: 1.75rem;
+}
+.footer-enlaces {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+span.footer-link li {
+    padding-left: 1.75rem;
+}
+@media (min-width: 1600px) {
+   /* .block-products {
+        width: 80% !important;
+    }*/
+}
+
+@media (max-width: 767px) {
+    .wt-prod-cat {
+        display: none !important;
+    }
+
+    .header-nav {
+        background: #666666 !important;
+    }
+    div#logo-best {
+	    padding: 1rem 0;
+	}
+	.footer-container .links .title {
+	    border-top: none !important;
+	}
+}
+
+@media (min-width: 768px) {
+    .header-nav {
+        background: #FF6600 !important;
+    }
+}

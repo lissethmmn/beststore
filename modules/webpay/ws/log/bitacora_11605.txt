@@ -1,0 +1,64 @@
+05-10-2018 15:55:48
+		Inicio de transaccion:11605nRequest :wsInitTransactionInput Object
+(
+    [wSTransactionType] => TR_NORMAL_WS
+    [commerceId] => 11605
+    [buyOrder] => 11605
+    [sessionId] => 11605
+    [returnURL] => https://beststore.cl/version17/module/webpay/tx_compra
+    [finalURL] => https://beststore.cl/version17/module/webpay/exito
+    [transactionDetails] => wsTransactionDetail Object
+        (
+            [sharesAmount] => 
+            [sharesNumber] => 
+            [amount] => 69890
+            [commerceCode] => 597020000541
+            [buyOrder] => 11605
+        )
+
+    [wPMDetail] => 
+)
+Datos recibidosnResponse wsInitTransactionOutput Object
+(
+    [token] => e89756c3e3b3477f07f9f825f5aed86fd9edede59cf4d193db29c973fcae1d96
+    [url] => https://webpay3gint.transbank.cl/webpayserver/initTransaction
+)
+05-10-2018 15:56:57
+		Autorización :11605nRequest  ngetTransactionResult Object
+(
+    [tokenInput] => e89756c3e3b3477f07f9f825f5aed86fd9edede59cf4d193db29c973fcae1d96
+)
+Response transactionResultOutput Object
+(
+    [accountingDate] => 1005
+    [buyOrder] => 11605
+    [cardDetail] => cardDetail Object
+        (
+            [cardNumber] => 6623
+            [cardExpirationDate] => 
+        )
+
+    [detailOutput] => wsTransactionDetailOutput Object
+        (
+            [authorizationCode] => 1213
+            [paymentTypeCode] => VC
+            [responseCode] => 0
+            [sharesAmount] => 6999
+            [sharesNumber] => 10
+            [amount] => 69890
+            [commerceCode] => 597020000541
+            [buyOrder] => 11605
+        )
+
+    [sessionId] => 11605
+    [transactionDate] => 2018-10-05T14:55:48.224-04:00
+    [urlRedirection] => https://webpay3gint.transbank.cl/webpayserver/voucher.cgi
+    [VCI] => TSY
+)
+Validacion certificado getTransactionResult:1n05-10-2018 15:56:57
+		===============================
+		Respuesta transaccion:0nacknowledgeTransaction:nRequest:acknowledgeTransaction Object
+(
+    [tokenInput] => e89756c3e3b3477f07f9f825f5aed86fd9edede59cf4d193db29c973fcae1d96
+)
+Response: acknowledgeTransactionResponse:truen05-10-2018 15:56:58Validacion certificado acknowledgeTransaction:1nGenera pedido Interno nEnvio a URL: https://webpay3gint.transbank.cl/webpayserver/voucher.cginToken:e89756c3e3b3477f07f9f825f5aed86fd9edede59cf4d193db29c973fcae1d96n

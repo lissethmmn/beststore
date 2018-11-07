@@ -1,0 +1,21 @@
+﻿
+[{shop_url}] 
+
+Hola {firstname} {lastname},
+
+Le agradecemos por realizar sus compras en {shop_name}! 
+
+Su pedido con la referencia {order_name} se ha enviado con motorista. 
+
+Será entregado en el menor tiempo posible.
+
+Gracias por comprar.
+
+Usted puede revisar su pedido desde
+"Historial de pedidos" [{history_url}] de su cuenta
+de cliente, haga clic en [{my_account_url}] en
+ nuestra tienda. 
+
+{shop_name} 
+
+

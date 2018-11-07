@@ -1,0 +1,95 @@
+
+
+
+
+
+
+.zoom-section { 
+	display:inline;
+        float: left;
+        width: 500px;
+      margin-bottom: 40px;
+        
+	
+}
+/* Feature descriptions in ZoomEngine page */
+.zoom-desc {
+	float:left;	
+	width:100px;
+	margin-left: 5px;
+
+}
+.zoom-desc h3 {
+	font-family:  serif;
+        font-size: 14px;
+        font-weight: 400px;
+        text-shadow: 2xz 1px 2px #000000;
+        color:  #222;
+        padding-left: 5px;
+}
+.zoom-small-image {
+	/*border:4px solid #CCC;*/
+	float:left;
+	margin-bottom:5px;
+        margin-left: -5px;
+        
+}
+.zoom-tiny-image {
+	border:1px solid #CCC;
+	margin:0px;
+	
+}
+.zoom-tiny-image:hover {
+	border:1px solid #008000;		
+}
+
+
+
+
+
+/* This is the moving lens square underneath the mouse pointer. */
+.cloud-zoom-lens {
+	/*border: 4px solid #888;*/
+		/* Set this to minus the border thickness. */
+	background-color:#fff !important;	
+	
+	cursor:move;		
+}
+
+/* This is for the title text. */
+.cloud-zoom-title {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute !important;
+	background-color:#000;
+	color:#fff;
+	padding:3px;
+	width:100%;
+	text-align:center;	
+	font-weight:bold;
+	font-size:10px;
+	top:0px;
+	overflow:hidden;
+}
+
+/* This is the zoom window. */
+.cloud-zoom-big {
+	
+	overflow:hidden;
+	-webkit-box-shadow: 3px 10px 15px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 3px 10px 15px rgba(0, 0, 0, 0.25);
+	box-shadow: 3px 10px 15px rgba(0, 0, 0, 0.25);
+	transition: transform .5s ease 0s, opacity .3s ease 0s, max-height .6s step-end 0s, max-width .6s step-end 0s, padding .6s step-end 0s;
+	-webkit-transition: transform .5s ease 0s, opacity .3s ease 0s, max-height .6s step-end 0s, max-width .6s step-end 0s, padding .6s step-end 0s;
+
+
+}
+
+/* This is the loading message. */
+.cloud-zoom-loading {
+	color:white;	
+	background:#222;
+	padding:3px;
+	border:1px solid #000;
+}
+
+

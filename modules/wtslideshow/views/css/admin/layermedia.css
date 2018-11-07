@@ -1,0 +1,114 @@
+#list_image {float:left; width:70%;}
+#image_action {float:left; width:30%}
+.image_selected img{border:2px solid #2414A7;}
+.image-layer img {max-width:150px}
+.panel h3 
+{
+background-color:#222;
+color: #cfcfcf;
+padding:10px;
+font-size: 13px;
+font-weight: normal;
+}
+.upload_image_layer
+{
+padding:10px;
+/* text-align:center; */
+}
+#upload_image
+{
+float:left;
+}
+#list_image ul
+{
+display:block;
+}
+#list_image ul li 
+{
+list-style:none;
+float: left;
+position: relative;
+margin-left: 2.5641%;
+min-height: 30px;
+margin-bottom: 2.5641%;
+-moz-box-shadow: inset 1px 1px 10px #cccccc;
+-webkit-box-shadow: inset 1px 1px 10px #cccccc;
+box-shadow: inset 1px 1px 10px #cccccc;
+}
+.image_preview
+{
+margin:10px 0;
+}
+.btn-default, .button-regular
+{
+font-size: 10px;
+font-weight:bold;
+color: white;
+padding: 5px 8px;
+text-transform: uppercase;
+border: none;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+background:#000;
+}
+.btn-default:hover, .button-regular:hover
+{
+background:#e74c3c;
+}
+.image_layer_size
+{
+min-height:25px;
+width:154px;
+}
+#image_action
+{
+min-height: 20px;
+padding:20px 8px;
+float:left;
+margin-bottom: 20px;
+background-color: #f5f5f5;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+width:30%;
+box-sizing:border-box;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+}
+#imageInsert, #imageDelete
+{
+margin-top:10px;
+}
+#video_form,#video_preview{
+float:left;
+width:50%;
+padding:10px;
+box-sizing:border-box;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+}
+#video_action{clear:both;}
+.video-thumbnail-preview img{max-width:100%;}
+.out_width
+{
+width:100%;
+margin:15px 0;
+}
+.out_width label
+{
+min-width:75px;
+display:inline-block;
+}
+.video-title
+{
+padding-bottom:15px;
+font-weight:bold;
+}
+.video-description {
+padding-top: 15px;
+line-height: 20px;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>supercheckout</name>
+    <displayName><![CDATA[SuperCheckout]]></displayName>
+    <version><![CDATA[5.0.3]]></version>
+    <description><![CDATA[Una p&aacute;gina de pago]]></description>
+    <author><![CDATA[Knowband]]></author>
+    <tab><![CDATA[checkout]]></tab>
+	<confirmUninstall><![CDATA[¿Estas seguro que lo quieres desinstalar?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

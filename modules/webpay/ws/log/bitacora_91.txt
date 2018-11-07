@@ -1,0 +1,25 @@
+08-10-2018 15:09:32
+		Inicio de transaccion:91nRequest :wsInitTransactionInput Object
+(
+    [wSTransactionType] => TR_NORMAL_WS
+    [commerceId] => 91
+    [buyOrder] => 91
+    [sessionId] => 91
+    [returnURL] => https://beststore.cl/version17/module/webpay/tx_compra
+    [finalURL] => https://beststore.cl/version17/module/webpay/exito
+    [transactionDetails] => wsTransactionDetail Object
+        (
+            [sharesAmount] => 
+            [sharesNumber] => 
+            [amount] => 12480
+            [commerceCode] => 597020000541
+            [buyOrder] => 91
+        )
+
+    [wPMDetail] => 
+)
+Datos recibidosnResponse wsInitTransactionOutput Object
+(
+    [token] => e79d17205e4aa9ceed8d0a49b6007770d401f49a522e8644ff0a2e46e5d54b3b
+    [url] => https://webpay3gint.transbank.cl/webpayserver/initTransaction
+)

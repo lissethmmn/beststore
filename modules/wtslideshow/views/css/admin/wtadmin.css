@@ -1,0 +1,117 @@
+#cs_slider_config_form .form-wrapper{text-align:center}
+.group .group_content{display:none;margin-bottom:50px}
+.group .group_content.first{display:block}
+.group h3 {font-weight: bold}
+.form-wrapper .dummyfile{padding-top:0px}
+.form-wrapper .help-block{float:right}
+.img-thumnail {margin-top:5px}
+#transition2d{height:200px;float:left;}
+#transition3d{height:200px;float:left;}
+.transitionpreview2d{float:left;margin-left:15px}
+.transitionpreview3d{float:left;margin-left:15px}
+
+/****/
+.editor-button-layer ul li a
+{
+border: none;
+text-shadow: none;
+border: none;
+outline: none;
+box-shadow: none;
+line-height: 26px;
+padding: 5px 10px 5px;
+display: inline-block;
+color: #fff;
+background: transparent;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+}
+.editor-button-layer ul li a#cs_add_layer_text, .editor-button-layer ul li a#cs_add_layer_image, .editor-button-layer ul li a#cs_add_layer_video
+{
+background: #3498db;
+}
+.editor-button-layer ul li a#cs_add_layer_text:hover, .editor-button-layer ul li a#cs_add_layer_image:hover, .editor-button-layer ul li a#cs_add_layer_video:hover
+{
+background:#2980b9;
+color: #fff;
+text-decoration:none;
+}
+.editor-button-layer ul li a#cs_delete_all_layer, .editor-button-layer ul li a#cs_delete_layer
+{
+background:#e74c3c;
+}
+.editor-button-layer ul li a#cs_delete_all_layer:hover, .editor-button-layer ul li a#cs_delete_layer:hover 
+{
+background:#c0392b;
+color: #fff;
+text-decoration:none;
+}
+.layer-sort input[type="text"]
+{
+max-width:70px;
+display:inline;
+}
+.form-wrapper .group h3 
+{
+cursor:pointer;
+display:inline-block;
+border:none !important;
+margin-bottom:0 !important;
+}
+#content.bootstrap #cs_slider_config_form .panel
+{
+padding:0;
+}
+.form-wrapper .group
+{
+border-top: solid 1px #eee;
+padding: 8px 20px 0 20px;
+}
+.form-wrapper .group:first-child
+{
+border-top:none;
+}
+.icon-dropdown
+{
+   display: inline-block;
+    height: 10px;
+	margin-top:8px;
+	margin-left:30px;
+    width: 10px;
+	background: url("../../img/images.png") no-repeat;
+	cursor:pointer;
+}
+.group_content .form-group input[type="text"]
+{
+width:90%;
+float:left;
+}
+.cs-help-block
+{
+clear:both;
+margin-top:10px;
+float:left;
+}
+.panel-footer
+{
+margin: 0 !important;
+}
+#layer-sort-ul li 
+{
+list-style:none;
+background:none;
+border:none;
+padding:5px 0;
+cursor:move;
+}
+#layer-sort-ul li  .layer-item
+{
+cursor:move;
+}
+#layer-sort-ul li  .layer-item label 
+{
+cursor:move;
+}
+.bootstrap .cs-fixed-width-xxl{width:350px !important}
+a.layer-disable{display:none !important}

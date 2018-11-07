@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>swachilexpress</name>
+    <displayName><![CDATA[Chilexpress]]></displayName>
+    <version><![CDATA[1.1.37]]></version>
+    <description><![CDATA[Chilexpress shipping integration]]></description>
+    <author><![CDATA[Softwareagil]]></author>
+    <tab><![CDATA[shipping_logistics]]></tab>
+	<confirmUninstall><![CDATA[Are you sure ? All module related info will be deleted]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

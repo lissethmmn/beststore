@@ -1,0 +1,278 @@
+#product_comments_block_extra {
+	font-size:12px;
+	line-height:18px
+}
+	
+#product_comments_block_extra a {
+ 
+	text-decoration: none;
+	
+
+}
+#product_comments_block_extra a{color:#2a3847;padding:8px 15px;background:#f1f1f1;font-family: 'Exo 2', sans-serif;font-size:13px;text-transform:uppercase;font-weight:600;border-radius:4px;}
+#product_comments_block_extra a:hover {color:#fff;background:#2a3847;}
+
+#product_comments_block_extra .comments_note {margin-bottom:5px; position: absolute;}
+#product_comments_block_extra .comments_note span,
+#product_comments_block_extra .star_content {float:left}
+#product_comments_block_extra .star_content {margin-top:2px}
+
+
+#product_comments_block_extra .comments_advices {clear:both;margin-top:22px; margin-bottom:15px;}
+#product_comments_block_extra .comments_advices.have_star{margin-left: 80px;}
+#product_comments_block_extra .comments_advices .open-comment-form{ margin-left: 0px;}
+	#product_comments_block_extra .comments_advices .open-comment-form:before{content:"\f044";font-family:'FontAwesome';font-size:15px;padding-right:5px;}
+ #product_comments_block_extra .comments_advices #read_user_reviews{
+	width:auto
+}#product_comments_block_extra .comments_advices #read_user_reviews:before{
+	content:"\f075";font-family:'FontAwesome';font-size:15px;padding-right:5px;
+}
+
+/* pop-in add grade/advice ********************************************************************* */
+#fancybox-wrap { width:585px }
+#fancybox-content {
+	width:585px;
+	border-width:0
+}
+
+#new_comment_form {
+	width:100%;
+	color: #333;
+	overflow: hidden;
+	text-align: left;
+	background-color: #fff
+}
+#wt_overlay.open{display: block; z-index: 9999;}
+#new_comment_form.open {
+	margin-top: 90px;
+    width: 80%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 9999;
+    left: 50%;
+	
+    margin-left: -40%;
+	-moz-box-shadow: 0 1px 30px rgba(0,0,0,.25);
+	box-shadow: 0 1px 30px rgba(0,0,0,.25);
+	border-radius: 6px;
+	
+}
+
+#new_comment_form .title {
+	padding:18px;
+	font-size: 20px;
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+	border-bottom: 1px solid #dedede;
+	
+}
+#new_comment_form ul.grade_content {list-style-type:none}
+#new_comment_form .grade_content li {width:50%}
+#new_comment_form .product {padding:15px;float:left;margin-top:0px;}
+#new_comment_form .product img {
+	float:left;
+   width:auto;
+   height:auto;
+}
+#new_comment_form .product .product_desc {
+	float:left;
+	margin-left:15px;
+	width:300px;
+	line-height:18px;
+	color:#666;
+	font-family: 'Muli', sans-serif;
+}
+#new_comment_form .product .product_desc .product_name {
+	font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+#new_comment_form .product .product_desc .product_name strong{font-weight:600;}
+#new_comment_form .grade_content {margin:0 0 20px 0}
+#new_comment_form .grade_content span,
+#new_comment_form .grade_content span {
+	display:inline-block;
+	padding:0 10px;
+	width:150px;/* 160 */
+	font-weight:bold
+}
+#new_comment_form .grade_content .cancel {margin-right:5px}
+
+.new_comment_form_content {
+	padding:15px;
+	float:right;
+	width:50%;
+	margin-top:30px;
+}
+.new_comment_form_content .intro_form {
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 12px
+}
+
+#new_comment_form label {
+	display: block;
+	margin:12px 0 4px 0;
+	font-weight: 500;
+	font-size: 13px;
+	color:#000;
+	font-family: 'Muli', sans-serif;
+	float:left;
+}
+#new_comment_form input {
+	padding: 0 5px;
+	height: 35px;
+	width: 100%;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+#new_comment_form textarea {
+	padding: 0 5px;
+	height: 80px;
+	width: 100%;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+.new_comment_form_content h2{font-family: 'Muli', sans-serif;color:#000;font-size:18px;text-transform:uppercase;}
+#new_comment_form .submit {
+	margin-top:20px;
+	padding:0;
+	font-size:13px;
+	text-align:right
+}
+#new_comment_form button {
+	color: #fff;
+	cursor: pointer;
+    background:#1678e5;
+	font-family: 'Muli', sans-serif;
+	font-size:16px;
+	text-transform:uppercase;
+	padding:8px 20px;
+	font-weight:500;
+	border:1px solid transparent;
+	border-radius:3px;
+}
+#new_comment_form button:hover{background:#000}
+#new_comment_form  a{font-family: 'Muli', sans-serif;font-weight:600;font-size:16px;text-transform:uppercase;}
+#new_comment_form  a:hover{color:#000}
+#new_comment_form #criterions_list {
+
+	list-style-type: none;
+}
+
+#new_comment_form #criterions_list li {
+	margin-bottom: 10px;
+}
+
+#new_comment_form #criterions_list label {
+	display: inline;
+	float: left;
+	margin: 0 ;
+	font-size:18px;
+	font-family: 'Muli', sans-serif;
+	font-weight:500;
+}
+
+#new_comment_form #criterions_list .star_content {
+	float: left;
+	margin-left: 30px;
+}
+
+#new_comment_form #new_comment_form_footer {
+	margin-top: 20px;
+	font-size: 12px;
+}
+
+/* TAB COMMENTS ******************************************************************************** */
+#product_comments_block_tab {margin:0 0 20px 0}
+
+#product_comments_block_tab div.comment {
+	margin:0 0 10px 0;
+	padding: 5px;
+	border-bottom: 1px dotted #ccc
+}
+
+#product_comments_block_tab div.comment div.comment_author {
+	float: left;
+	padding-right:25px;
+	width: 240px;/* 165 */
+	line-height:18px   ;
+}
+#product_comments_block_tab div.comment div.comment_author span {font-weight:500;}
+#product_comments_block_tab div.comment div.comment_author span,
+#product_comments_block_tab div.comment .star_content {
+	font-family: 'Muli', sans-serif;font-size:20px;
+}
+#product_comments_block_tab div.comment .star_content {margin: 0 0 0 5px}
+
+#product_comments_block_tab div.star_on {background-position: 0 -12px}
+#product_comments_block_tab .comment_author_infos {clear:both;font-family: 'Muli', sans-serif;padding-top:20px}
+#product_comments_block_tab .comment_author_infos strong{font-weight:600}
+#product_comments_block_tab .comment_author_infos em {color:#999}
+
+#product_comments_block_tab div.comment div.comment_details {
+	float: left;
+	overflow:hidden;
+	width: 500px;
+	 border-left: 1px solid #dfdfdf;
+    padding-left: 15px;
+}
+#product_comments_block_tab div.comment_details .title_block, #product_comments_block_tab div.comment_details h4  {padding-bottom:10px;font-family: 'Muli', sans-serif;font-weight:500;text-transform:capitalize;}
+
+#product_comments_block_tab div.comment_details ul {font-family: 'Muli', sans-serif;
+	list-style-type:none;
+	margin:0
+}
+#product_comments_block_tab div.comment_details li {
+	padding:2px 0 2px 12px;
+	background:url(../img/bg_li.png) no-repeat 1px 45% #fff
+}
+
+#product_comments_block_tab a {
+	text-decoration: none;
+	font-weight: bold
+}
+
+
+
+#product_comments_block_tab button.usefulness_btn {
+	cursor: pointer;
+	margin:0 0 0 5px;
+	display: inline-block;
+	padding: 5px 10px;
+	border: 1px solid transparent;
+	border-radius: 3px ;
+	color: #000;
+	font-family: 'Muli', sans-serif;
+	font-weight: 500;
+	background:#f5f5f5;
+	text-transform:capitalize;
+}
+#product_comments_block_tab button.usefulness_btn:hover {background:#2a3847;color:#fff;}
+#product_comments_block_tab button.usefulness_btn:active {background:#2a3847;color:#fff;}
+
+#product_comments_block_tab span.report_btn {cursor: pointer;font-family: 'Muli', sans-serif;font-weight:500;color:#f12a43;}
+#product_comments_block_tab span.report_btn:hover {text-decoration:underline}
+
+
+.fl { float: left; }
+.fr { float: right; }
+@media (min-width: 768px) and (max-width: 1199px){
+	.new_comment_form_content{width:100%;}
+	#new_comment_form .product .product_desc .product_name{padding-top:20px;}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	.new_comment_form_content{width:100%;}
+}
+@media (max-width:  767px){
+	#product_comments_block_extra{position: relative;}
+	#product_comments_block_extra .comments_note{position: absolute; left:65%; top: 5px;}
+	#product_comments_block_extra .comments_advices.have_star{margin-left:0;}
+	#product_comments_block_tab div.comment div.comment_details{width: auto;}
+	.new_comment_form_content{width:100%;}
+	#new_comment_form .product .product_desc .product_name{padding-top:20px;}
+	
+}

@@ -1,0 +1,25 @@
+27-09-2018 23:42:08
+		Inicio de transaccion:65015nRequest :wsInitTransactionInput Object
+(
+    [wSTransactionType] => TR_NORMAL_WS
+    [commerceId] => 65015
+    [buyOrder] => 65015
+    [sessionId] => 65015
+    [returnURL] => https://www.beststore.cl/presta1.7/module/webpay/tx_compra
+    [finalURL] => https://www.beststore.cl/presta1.7/module/webpay/exito
+    [transactionDetails] => wsTransactionDetail Object
+        (
+            [sharesAmount] => 
+            [sharesNumber] => 
+            [amount] => 1019980
+            [commerceCode] => 597033020368
+            [buyOrder] => 65015
+        )
+
+    [wPMDetail] => 
+)
+Datos recibidosnResponse wsInitTransactionOutput Object
+(
+    [token] => edc0c887675c23be68617efd01ae2e3f9731341e01a358885bcc0a41dce6faa2
+    [url] => https://webpay3g.transbank.cl:443/webpayserver/initTransaction
+)

@@ -1,0 +1,9 @@
+[{shop_url}] 
+
+Hola {firstname} {lastname}, 
+
+ATENCIÓN: has recibido una nueva alerta de registro en tu Back Office.
+
+Puede comprobarlo en la sección "Parámetros Avanzados" > "Registros/Logs" del Back Office. 		 
+
+{shop_name} [{shop_url}] 
