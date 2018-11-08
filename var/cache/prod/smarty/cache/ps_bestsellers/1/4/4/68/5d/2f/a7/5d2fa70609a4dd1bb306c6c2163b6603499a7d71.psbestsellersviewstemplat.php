@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-07 16:16:20
+/* Smarty version 3.1.32, created on 2018-11-08 15:50:48
   from 'module:psbestsellersviewstemplat' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5be33a044878e1_58278016',
+  'unifunc' => 'content_5be48588599457_52616005',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,7 +36,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5be48588599457_52616005 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section>
   <h1>Los más vendidos</h1>
   <div class="products">
@@ -57,18 +57,18 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 	<div class="thumbs-content">
 
-		<a id="view_scroll_left482" class="button-arrow-vertical-thumb prev hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-up"></i></a>
+		<a id="view_scroll_left789" class="button-arrow-vertical-thumb prev hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-up"></i></a>
 
-		<div id="thumbs_list482" class="thumbs_list ">
+		<div id="thumbs_list789" class="thumbs_list ">
 
-			<ul id="thumbs_list_frame482" class="thumbs_list_frame" name="thumb-images-1099">
+			<ul id="thumbs_list_frame789" class="thumbs_list_frame" name="thumb-images-1099">
 
 				
 					
 					
 						
 					
-					<li id="thumbnail482_2373" class="last">
+					<li id="thumbnail789_2373" class="last">
 
 						<a wt_rel="prettyPhoto[thumb-images-1099]"
 
@@ -95,7 +95,7 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		</div>
 
-		<a id="view_scroll_right482" class="button-arrow-vertical-thumb next hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-down"></i></a>
+		<a id="view_scroll_right789" class="button-arrow-vertical-thumb next hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-down"></i></a>
 
 </div>
 
@@ -105,13 +105,13 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		
 
-		$('#thumbs_list482').serialScroll({
+		$('#thumbs_list789').serialScroll({
 
 			items:'li:visible',
 
-			prev:'#view_scroll_left482',
+			prev:'#view_scroll_left789',
 
-			next:'#view_scroll_right482',
+			next:'#view_scroll_right789',
 
 			axis:'y',
 
@@ -137,9 +137,9 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		});
 
-		$('#thumbs_list482').trigger('goto', 1);// SerialScroll Bug on goto 0 ?
+		$('#thumbs_list789').trigger('goto', 1);// SerialScroll Bug on goto 0 ?
 
-		$('#thumbs_list482').trigger('goto', 0);
+		$('#thumbs_list789').trigger('goto', 0);
 
 	
 
@@ -147,7 +147,7 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		{
 
-			serialScrollNbImages = $('#thumbs_list482 li:visible').length;
+			serialScrollNbImages = $('#thumbs_list789 li:visible').length;
 
 			serialScrollNbImagesDisplayed = 3;
 
@@ -159,9 +159,9 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 
 
-			$('#view_scroll_left482').css('cursor', leftArrow ? 'default' : 'pointer').css('display', leftArrow ? 'block' : 'block').fadeTo(0, leftArrow ? 0 : 1);
+			$('#view_scroll_left789').css('cursor', leftArrow ? 'default' : 'pointer').css('display', leftArrow ? 'block' : 'block').fadeTo(0, leftArrow ? 0 : 1);
 
-			$('#view_scroll_right482').css('cursor', rightArrow ? 'default' : 'pointer').fadeTo(0, rightArrow ? 0 : 1).css('display', rightArrow ? 'block' : 'block');
+			$('#view_scroll_right789').css('cursor', rightArrow ? 'default' : 'pointer').fadeTo(0, rightArrow ? 0 : 1).css('display', rightArrow ? 'block' : 'block');
 
 			return true;
 
@@ -257,18 +257,18 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 	<div class="thumbs-content">
 
-		<a id="view_scroll_left496" class="button-arrow-vertical-thumb prev hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-up"></i></a>
+		<a id="view_scroll_left206" class="button-arrow-vertical-thumb prev hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-up"></i></a>
 
-		<div id="thumbs_list496" class="thumbs_list ">
+		<div id="thumbs_list206" class="thumbs_list ">
 
-			<ul id="thumbs_list_frame496" class="thumbs_list_frame" name="thumb-images-179">
+			<ul id="thumbs_list_frame206" class="thumbs_list_frame" name="thumb-images-179">
 
 				
 					
 					
 						
 					
-					<li id="thumbnail496_255" class="last">
+					<li id="thumbnail206_255" class="last">
 
 						<a wt_rel="prettyPhoto[thumb-images-179]"
 
@@ -295,7 +295,7 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		</div>
 
-		<a id="view_scroll_right496" class="button-arrow-vertical-thumb next hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-down"></i></a>
+		<a id="view_scroll_right206" class="button-arrow-vertical-thumb next hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-down"></i></a>
 
 </div>
 
@@ -305,13 +305,13 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		
 
-		$('#thumbs_list496').serialScroll({
+		$('#thumbs_list206').serialScroll({
 
 			items:'li:visible',
 
-			prev:'#view_scroll_left496',
+			prev:'#view_scroll_left206',
 
-			next:'#view_scroll_right496',
+			next:'#view_scroll_right206',
 
 			axis:'y',
 
@@ -337,9 +337,9 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		});
 
-		$('#thumbs_list496').trigger('goto', 1);// SerialScroll Bug on goto 0 ?
+		$('#thumbs_list206').trigger('goto', 1);// SerialScroll Bug on goto 0 ?
 
-		$('#thumbs_list496').trigger('goto', 0);
+		$('#thumbs_list206').trigger('goto', 0);
 
 	
 
@@ -347,7 +347,7 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		{
 
-			serialScrollNbImages = $('#thumbs_list496 li:visible').length;
+			serialScrollNbImages = $('#thumbs_list206 li:visible').length;
 
 			serialScrollNbImagesDisplayed = 3;
 
@@ -359,9 +359,9 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 
 
-			$('#view_scroll_left496').css('cursor', leftArrow ? 'default' : 'pointer').css('display', leftArrow ? 'block' : 'block').fadeTo(0, leftArrow ? 0 : 1);
+			$('#view_scroll_left206').css('cursor', leftArrow ? 'default' : 'pointer').css('display', leftArrow ? 'block' : 'block').fadeTo(0, leftArrow ? 0 : 1);
 
-			$('#view_scroll_right496').css('cursor', rightArrow ? 'default' : 'pointer').fadeTo(0, rightArrow ? 0 : 1).css('display', rightArrow ? 'block' : 'block');
+			$('#view_scroll_right206').css('cursor', rightArrow ? 'default' : 'pointer').fadeTo(0, rightArrow ? 0 : 1).css('display', rightArrow ? 'block' : 'block');
 
 			return true;
 
@@ -657,18 +657,18 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 	<div class="thumbs-content">
 
-		<a id="view_scroll_left985" class="button-arrow-vertical-thumb prev hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-up"></i></a>
+		<a id="view_scroll_left288" class="button-arrow-vertical-thumb prev hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-up"></i></a>
 
-		<div id="thumbs_list985" class="thumbs_list ">
+		<div id="thumbs_list288" class="thumbs_list ">
 
-			<ul id="thumbs_list_frame985" class="thumbs_list_frame" name="thumb-images-807">
+			<ul id="thumbs_list_frame288" class="thumbs_list_frame" name="thumb-images-807">
 
 				
 					
 					
 						
 					
-					<li id="thumbnail985_1759">
+					<li id="thumbnail288_1759">
 
 						<a wt_rel="prettyPhoto[thumb-images-807]"
 
@@ -695,7 +695,7 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 					
 						
 					
-					<li id="thumbnail985_1760">
+					<li id="thumbnail288_1760">
 
 						<a wt_rel="prettyPhoto[thumb-images-807]"
 
@@ -722,7 +722,7 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 					
 						
 					
-					<li id="thumbnail985_1761" class="last">
+					<li id="thumbnail288_1761" class="last">
 
 						<a wt_rel="prettyPhoto[thumb-images-807]"
 
@@ -749,7 +749,7 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		</div>
 
-		<a id="view_scroll_right985" class="button-arrow-vertical-thumb next hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-down"></i></a>
+		<a id="view_scroll_right288" class="button-arrow-vertical-thumb next hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-down"></i></a>
 
 </div>
 
@@ -759,13 +759,13 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		
 
-		$('#thumbs_list985').serialScroll({
+		$('#thumbs_list288').serialScroll({
 
 			items:'li:visible',
 
-			prev:'#view_scroll_left985',
+			prev:'#view_scroll_left288',
 
-			next:'#view_scroll_right985',
+			next:'#view_scroll_right288',
 
 			axis:'y',
 
@@ -791,9 +791,9 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		});
 
-		$('#thumbs_list985').trigger('goto', 1);// SerialScroll Bug on goto 0 ?
+		$('#thumbs_list288').trigger('goto', 1);// SerialScroll Bug on goto 0 ?
 
-		$('#thumbs_list985').trigger('goto', 0);
+		$('#thumbs_list288').trigger('goto', 0);
 
 	
 
@@ -801,7 +801,7 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		{
 
-			serialScrollNbImages = $('#thumbs_list985 li:visible').length;
+			serialScrollNbImages = $('#thumbs_list288 li:visible').length;
 
 			serialScrollNbImagesDisplayed = 3;
 
@@ -813,9 +813,9 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 
 
-			$('#view_scroll_left985').css('cursor', leftArrow ? 'default' : 'pointer').css('display', leftArrow ? 'block' : 'block').fadeTo(0, leftArrow ? 0 : 1);
+			$('#view_scroll_left288').css('cursor', leftArrow ? 'default' : 'pointer').css('display', leftArrow ? 'block' : 'block').fadeTo(0, leftArrow ? 0 : 1);
 
-			$('#view_scroll_right985').css('cursor', rightArrow ? 'default' : 'pointer').fadeTo(0, rightArrow ? 0 : 1).css('display', rightArrow ? 'block' : 'block');
+			$('#view_scroll_right288').css('cursor', rightArrow ? 'default' : 'pointer').fadeTo(0, rightArrow ? 0 : 1).css('display', rightArrow ? 'block' : 'block');
 
 			return true;
 
@@ -911,18 +911,18 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 	<div class="thumbs-content">
 
-		<a id="view_scroll_left794" class="button-arrow-vertical-thumb prev hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-up"></i></a>
+		<a id="view_scroll_left266" class="button-arrow-vertical-thumb prev hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-up"></i></a>
 
-		<div id="thumbs_list794" class="thumbs_list ">
+		<div id="thumbs_list266" class="thumbs_list ">
 
-			<ul id="thumbs_list_frame794" class="thumbs_list_frame" name="thumb-images-1313">
+			<ul id="thumbs_list_frame266" class="thumbs_list_frame" name="thumb-images-1313">
 
 				
 					
 					
 						
 					
-					<li id="thumbnail794_2774" class="last">
+					<li id="thumbnail266_2774" class="last">
 
 						<a wt_rel="prettyPhoto[thumb-images-1313]"
 
@@ -949,7 +949,7 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		</div>
 
-		<a id="view_scroll_right794" class="button-arrow-vertical-thumb next hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-down"></i></a>
+		<a id="view_scroll_right266" class="button-arrow-vertical-thumb next hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-down"></i></a>
 
 </div>
 
@@ -959,13 +959,13 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		
 
-		$('#thumbs_list794').serialScroll({
+		$('#thumbs_list266').serialScroll({
 
 			items:'li:visible',
 
-			prev:'#view_scroll_left794',
+			prev:'#view_scroll_left266',
 
-			next:'#view_scroll_right794',
+			next:'#view_scroll_right266',
 
 			axis:'y',
 
@@ -991,9 +991,9 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		});
 
-		$('#thumbs_list794').trigger('goto', 1);// SerialScroll Bug on goto 0 ?
+		$('#thumbs_list266').trigger('goto', 1);// SerialScroll Bug on goto 0 ?
 
-		$('#thumbs_list794').trigger('goto', 0);
+		$('#thumbs_list266').trigger('goto', 0);
 
 	
 
@@ -1001,7 +1001,7 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		{
 
-			serialScrollNbImages = $('#thumbs_list794 li:visible').length;
+			serialScrollNbImages = $('#thumbs_list266 li:visible').length;
 
 			serialScrollNbImagesDisplayed = 3;
 
@@ -1013,9 +1013,9 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 
 
-			$('#view_scroll_left794').css('cursor', leftArrow ? 'default' : 'pointer').css('display', leftArrow ? 'block' : 'block').fadeTo(0, leftArrow ? 0 : 1);
+			$('#view_scroll_left266').css('cursor', leftArrow ? 'default' : 'pointer').css('display', leftArrow ? 'block' : 'block').fadeTo(0, leftArrow ? 0 : 1);
 
-			$('#view_scroll_right794').css('cursor', rightArrow ? 'default' : 'pointer').fadeTo(0, rightArrow ? 0 : 1).css('display', rightArrow ? 'block' : 'block');
+			$('#view_scroll_right266').css('cursor', rightArrow ? 'default' : 'pointer').fadeTo(0, rightArrow ? 0 : 1).css('display', rightArrow ? 'block' : 'block');
 
 			return true;
 
@@ -1111,18 +1111,18 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 	<div class="thumbs-content">
 
-		<a id="view_scroll_left896" class="button-arrow-vertical-thumb prev hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-up"></i></a>
+		<a id="view_scroll_left849" class="button-arrow-vertical-thumb prev hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-up"></i></a>
 
-		<div id="thumbs_list896" class="thumbs_list ">
+		<div id="thumbs_list849" class="thumbs_list ">
 
-			<ul id="thumbs_list_frame896" class="thumbs_list_frame" name="thumb-images-1210">
+			<ul id="thumbs_list_frame849" class="thumbs_list_frame" name="thumb-images-1210">
 
 				
 					
 					
 						
 					
-					<li id="thumbnail896_2578" class="last">
+					<li id="thumbnail849_2578" class="last">
 
 						<a wt_rel="prettyPhoto[thumb-images-1210]"
 
@@ -1149,7 +1149,7 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		</div>
 
-		<a id="view_scroll_right896" class="button-arrow-vertical-thumb next hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-down"></i></a>
+		<a id="view_scroll_right849" class="button-arrow-vertical-thumb next hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-down"></i></a>
 
 </div>
 
@@ -1159,13 +1159,13 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		
 
-		$('#thumbs_list896').serialScroll({
+		$('#thumbs_list849').serialScroll({
 
 			items:'li:visible',
 
-			prev:'#view_scroll_left896',
+			prev:'#view_scroll_left849',
 
-			next:'#view_scroll_right896',
+			next:'#view_scroll_right849',
 
 			axis:'y',
 
@@ -1191,9 +1191,9 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		});
 
-		$('#thumbs_list896').trigger('goto', 1);// SerialScroll Bug on goto 0 ?
+		$('#thumbs_list849').trigger('goto', 1);// SerialScroll Bug on goto 0 ?
 
-		$('#thumbs_list896').trigger('goto', 0);
+		$('#thumbs_list849').trigger('goto', 0);
 
 	
 
@@ -1201,7 +1201,7 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		{
 
-			serialScrollNbImages = $('#thumbs_list896 li:visible').length;
+			serialScrollNbImages = $('#thumbs_list849 li:visible').length;
 
 			serialScrollNbImagesDisplayed = 3;
 
@@ -1213,9 +1213,9 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 
 
-			$('#view_scroll_left896').css('cursor', leftArrow ? 'default' : 'pointer').css('display', leftArrow ? 'block' : 'block').fadeTo(0, leftArrow ? 0 : 1);
+			$('#view_scroll_left849').css('cursor', leftArrow ? 'default' : 'pointer').css('display', leftArrow ? 'block' : 'block').fadeTo(0, leftArrow ? 0 : 1);
 
-			$('#view_scroll_right896').css('cursor', rightArrow ? 'default' : 'pointer').fadeTo(0, rightArrow ? 0 : 1).css('display', rightArrow ? 'block' : 'block');
+			$('#view_scroll_right849').css('cursor', rightArrow ? 'default' : 'pointer').fadeTo(0, rightArrow ? 0 : 1).css('display', rightArrow ? 'block' : 'block');
 
 			return true;
 
@@ -1311,18 +1311,18 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 	<div class="thumbs-content">
 
-		<a id="view_scroll_left720" class="button-arrow-vertical-thumb prev " href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-up"></i></a>
+		<a id="view_scroll_left707" class="button-arrow-vertical-thumb prev " href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-up"></i></a>
 
-		<div id="thumbs_list720" class="thumbs_list show_sroll">
+		<div id="thumbs_list707" class="thumbs_list show_sroll">
 
-			<ul id="thumbs_list_frame720" class="thumbs_list_frame" name="thumb-images-1693">
+			<ul id="thumbs_list_frame707" class="thumbs_list_frame" name="thumb-images-1693">
 
 				
 					
 					
 						
 					
-					<li id="thumbnail720_3613">
+					<li id="thumbnail707_3613">
 
 						<a wt_rel="prettyPhoto[thumb-images-1693]"
 
@@ -1349,7 +1349,7 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 					
 						
 					
-					<li id="thumbnail720_3614">
+					<li id="thumbnail707_3614">
 
 						<a wt_rel="prettyPhoto[thumb-images-1693]"
 
@@ -1376,7 +1376,7 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 					
 						
 					
-					<li id="thumbnail720_3615">
+					<li id="thumbnail707_3615">
 
 						<a wt_rel="prettyPhoto[thumb-images-1693]"
 
@@ -1403,7 +1403,7 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 					
 						
 					
-					<li id="thumbnail720_3616">
+					<li id="thumbnail707_3616">
 
 						<a wt_rel="prettyPhoto[thumb-images-1693]"
 
@@ -1430,7 +1430,7 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 					
 						
 					
-					<li id="thumbnail720_3617" class="last">
+					<li id="thumbnail707_3617" class="last">
 
 						<a wt_rel="prettyPhoto[thumb-images-1693]"
 
@@ -1457,7 +1457,7 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		</div>
 
-		<a id="view_scroll_right720" class="button-arrow-vertical-thumb next " href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-down"></i></a>
+		<a id="view_scroll_right707" class="button-arrow-vertical-thumb next " href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-down"></i></a>
 
 </div>
 
@@ -1467,13 +1467,13 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		
 
-		$('#thumbs_list720').serialScroll({
+		$('#thumbs_list707').serialScroll({
 
 			items:'li:visible',
 
-			prev:'#view_scroll_left720',
+			prev:'#view_scroll_left707',
 
-			next:'#view_scroll_right720',
+			next:'#view_scroll_right707',
 
 			axis:'y',
 
@@ -1499,9 +1499,9 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		});
 
-		$('#thumbs_list720').trigger('goto', 1);// SerialScroll Bug on goto 0 ?
+		$('#thumbs_list707').trigger('goto', 1);// SerialScroll Bug on goto 0 ?
 
-		$('#thumbs_list720').trigger('goto', 0);
+		$('#thumbs_list707').trigger('goto', 0);
 
 	
 
@@ -1509,7 +1509,7 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		{
 
-			serialScrollNbImages = $('#thumbs_list720 li:visible').length;
+			serialScrollNbImages = $('#thumbs_list707 li:visible').length;
 
 			serialScrollNbImagesDisplayed = 3;
 
@@ -1521,9 +1521,9 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 
 
-			$('#view_scroll_left720').css('cursor', leftArrow ? 'default' : 'pointer').css('display', leftArrow ? 'block' : 'block').fadeTo(0, leftArrow ? 0 : 1);
+			$('#view_scroll_left707').css('cursor', leftArrow ? 'default' : 'pointer').css('display', leftArrow ? 'block' : 'block').fadeTo(0, leftArrow ? 0 : 1);
 
-			$('#view_scroll_right720').css('cursor', rightArrow ? 'default' : 'pointer').fadeTo(0, rightArrow ? 0 : 1).css('display', rightArrow ? 'block' : 'block');
+			$('#view_scroll_right707').css('cursor', rightArrow ? 'default' : 'pointer').fadeTo(0, rightArrow ? 0 : 1).css('display', rightArrow ? 'block' : 'block');
 
 			return true;
 
@@ -1619,18 +1619,18 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 	<div class="thumbs-content">
 
-		<a id="view_scroll_left111" class="button-arrow-vertical-thumb prev hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-up"></i></a>
+		<a id="view_scroll_left227" class="button-arrow-vertical-thumb prev hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-up"></i></a>
 
-		<div id="thumbs_list111" class="thumbs_list ">
+		<div id="thumbs_list227" class="thumbs_list ">
 
-			<ul id="thumbs_list_frame111" class="thumbs_list_frame" name="thumb-images-521">
+			<ul id="thumbs_list_frame227" class="thumbs_list_frame" name="thumb-images-521">
 
 				
 					
 					
 						
 					
-					<li id="thumbnail111_989" class="last">
+					<li id="thumbnail227_989" class="last">
 
 						<a wt_rel="prettyPhoto[thumb-images-521]"
 
@@ -1657,7 +1657,7 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		</div>
 
-		<a id="view_scroll_right111" class="button-arrow-vertical-thumb next hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-down"></i></a>
+		<a id="view_scroll_right227" class="button-arrow-vertical-thumb next hidden" href="javascript:{}" title="Other views" rel="11"><i class="icon-chevron-down"></i></a>
 
 </div>
 
@@ -1667,13 +1667,13 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		
 
-		$('#thumbs_list111').serialScroll({
+		$('#thumbs_list227').serialScroll({
 
 			items:'li:visible',
 
-			prev:'#view_scroll_left111',
+			prev:'#view_scroll_left227',
 
-			next:'#view_scroll_right111',
+			next:'#view_scroll_right227',
 
 			axis:'y',
 
@@ -1699,9 +1699,9 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		});
 
-		$('#thumbs_list111').trigger('goto', 1);// SerialScroll Bug on goto 0 ?
+		$('#thumbs_list227').trigger('goto', 1);// SerialScroll Bug on goto 0 ?
 
-		$('#thumbs_list111').trigger('goto', 0);
+		$('#thumbs_list227').trigger('goto', 0);
 
 	
 
@@ -1709,7 +1709,7 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 		{
 
-			serialScrollNbImages = $('#thumbs_list111 li:visible').length;
+			serialScrollNbImages = $('#thumbs_list227 li:visible').length;
 
 			serialScrollNbImagesDisplayed = 3;
 
@@ -1721,9 +1721,9 @@ function content_5be33a044878e1_58278016 (Smarty_Internal_Template $_smarty_tpl)
 
 
 
-			$('#view_scroll_left111').css('cursor', leftArrow ? 'default' : 'pointer').css('display', leftArrow ? 'block' : 'block').fadeTo(0, leftArrow ? 0 : 1);
+			$('#view_scroll_left227').css('cursor', leftArrow ? 'default' : 'pointer').css('display', leftArrow ? 'block' : 'block').fadeTo(0, leftArrow ? 0 : 1);
 
-			$('#view_scroll_right111').css('cursor', rightArrow ? 'default' : 'pointer').fadeTo(0, rightArrow ? 0 : 1).css('display', rightArrow ? 'block' : 'block');
+			$('#view_scroll_right227').css('cursor', rightArrow ? 'default' : 'pointer').fadeTo(0, rightArrow ? 0 : 1).css('display', rightArrow ? 'block' : 'block');
 
 			return true;
 

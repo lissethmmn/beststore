@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-07 16:16:30
+/* Smarty version 3.1.32, created on 2018-11-08 15:50:56
   from 'module:wtslideshowviewstemplates' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5be33a0ea60687_76225088',
+  'unifunc' => 'content_5be4859059ab85_12629478',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5be33a0ea60687_76225088 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5be4859059ab85_12629478 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!-- Module HomeSlider -->
 <?php $_smarty_tpl->_assignInScope('id_lang', Context::getContext()->language->id);

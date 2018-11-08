@@ -3,9 +3,9 @@
   array (
     'database_host' => 'localhost',
     'database_port' => '',
-    'database_name' => 'beststor_version17',
-    'database_user' => 'beststor_jfernandez',
-    'database_password' => 'O1MGZmMYLP!(',
+    'database_name' => 'beststore17new',
+    'database_user' => 'root',
+    'database_password' => '',
     'database_prefix' => 'ps_',
     'database_engine' => 'InnoDB',
     'mailer_transport' => 'smtp',

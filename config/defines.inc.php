@@ -24,6 +24,16 @@
  * International Registered Trademark & Property of PrestaShop SA
  */
 
+/*if ( array_key_exists('bs_dev',$_GET)){
+    define('_PS_MODE_DEV_', false);
+    setcookie("bs_dev", "true", time() + 3600, '/');
+}
+else {
+    if ( array_key_exists('bs_dev', $_COOKIE)) {
+        define('_PS_MODE_DEV_', false);    
+    }
+} */
+
 /* Debug only */
 if (!defined('_PS_MODE_DEV_')) {
 define('_PS_MODE_DEV_', false);
@@ -40,6 +50,17 @@ if (_PS_MODE_DEV_ === true) {
 }
 
 define('_PS_DEBUG_PROFILING_', false);
+/* if ( array_key_exists('bs_debug',$_GET)){
+    define('_PS_DEBUG_PROFILING_', true);
+    setcookie("bs_debug", "true", time() + 3600, '/');
+}
+else {
+    if ( array_key_exists('bs_debug', $_COOKIE)) {
+        define('_PS_DEBUG_PROFILING_', true);    
+    }
+    else define('_PS_DEBUG_PROFILING_', false);
+} */
+
 define('_PS_MODE_DEMO_', false);
 
 $currentDir = dirname(__FILE__);

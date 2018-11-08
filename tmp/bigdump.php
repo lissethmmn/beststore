@@ -39,7 +39,7 @@ error_reporting(E_ALL);
 // Database configuration
 
 $db_server   = 'localhost';
-$db_name     = 'beststore17new';
+$db_name     = 'beststore17old';
 $db_username = 'root';
 $db_password = ''; 
 
@@ -51,7 +51,7 @@ $db_connection_charset = 'utf8';
 
 // OPTIONAL SETTINGS 
 
-$filename           = 'beststor_version17.sql';     // Specify the dump filename to suppress the file selection dialog
+$filename           = 'beststor_version17_old_v2.sql';     // Specify the dump filename to suppress the file selection dialog
 $ajax               = true;   // AJAX mode: import will be done without refreshing the website
 $linespersession    = 99999;   // Lines to be executed per one import session
 $delaypersession    = 0;      // You can specify a sleep time in milliseconds after each session
