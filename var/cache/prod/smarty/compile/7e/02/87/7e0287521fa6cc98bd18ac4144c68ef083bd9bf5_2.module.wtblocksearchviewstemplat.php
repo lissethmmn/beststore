@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-09 16:50:36
+/* Smarty version 3.1.32, created on 2018-11-09 18:07:47
   from 'module:wtblocksearchviewstemplat' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5be5e50c4002e6_81497134',
+  'unifunc' => 'content_5be5f723116ab9_88240448',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5be5e50c4002e6_81497134 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5be5f723116ab9_88240448 (Smarty_Internal_Template $_smarty_tpl) {
 if (isset($_smarty_tpl->tpl_vars['hook_mobile']->value)) {?>
 <div class="input_search" data-role="fieldcontain">
 	<form method="get" action="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['link']->value->getPageLink('search',true),'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
