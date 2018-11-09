@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-08 15:51:26
+/* Smarty version 3.1.32, created on 2018-11-09 16:35:18
   from 'C:\xampp\htdocs\17beststore\modules\welcome\views\contents\welcome.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5be485ae1bc4a1_14531455',
+  'unifunc' => 'content_5be5e176e25c06_36116403',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5be485ae1bc4a1_14531455 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5be5e176e25c06_36116403 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="onboarding-welcome">
   <i class="material-icons onboarding-button-shut-down">close</i>
