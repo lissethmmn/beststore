@@ -1,0 +1,53 @@
+[33mcommit 90691067420a172d223060fedbb616688ff47e74[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Lisseth Mendoza <lissethm@gmail.com>
+Date:   Mon Nov 12 10:03:41 2018 -0300
+
+     Actulizadas los banners verticales con imagenes optimizadas
+
+[33mcommit 29d06ddaac5743a34e2e4a48eea0ea0ccd9ee718[m
+Author: Lisseth Mendoza <lissethm@gmail.com>
+Date:   Fri Nov 9 18:58:47 2018 -0300
+
+    Cambio color de fondo del footer
+
+[33mcommit b1fc154e0511789300cbb473082842aff521d2c7[m
+Author: Lisseth Mendoza <lissethm@gmail.com>
+Date:   Fri Nov 9 18:23:41 2018 -0300
+
+    Se desactivaron los m´doulos deblog y social
+
+[33mcommit 563d9d43795ab5f0a1627bdf27ec8ba4a43f9d1a[m
+Author: Lisseth Mendoza <lissethm@gmail.com>
+Date:   Fri Nov 9 18:09:35 2018 -0300
+
+     Carga de slides y banner horizontales optimizados
+
+[33mcommit 98996e4bac9c47f5cb52c7f5309fd1af70dc69d7[m
+Author: Lisseth Mendoza <lissethm@gmail.com>
+Date:   Fri Nov 9 16:54:45 2018 -0300
+
+     Se desactivaron los mpdulos de fabricamntes y pop-up
+
+[33mcommit b429eb43a54c0eced20a14cd17ca192052ef052c[m
+Author: Lisseth Mendoza <lissethm@gmail.com>
+Date:   Fri Nov 9 16:38:52 2018 -0300
+
+    Agregando comentasrios en el archivo custom.css identificando cambios de estilos en el home
+
+[33mcommit cee51924c8472b6aeb91a2881d40ef9e28fd87fa[m
+Author: Lisseth Mendoza <lissethm@gmail.com>
+Date:   Thu Nov 8 18:21:04 2018 -0300
+
+    Se borro archivos de var/cache, regenero imagenes y se instalo certificado ssl
+
+[33mcommit 529c856b5ffec85ac5200e66a0f1c6f98b07e583[m
+Author: Lisseth Mendoza <lissethm@gmail.com>
+Date:   Wed Nov 7 16:30:59 2018 -0300
+
+    Importo base de datos, se modificaron url y se reseteo mi clave de acceso al admin
+
+[33mcommit 214f60d92c9c07fd5b380af81e1a4b360d287345[m
+Author: Lisseth Mendoza <lissethm@gmail.com>
+Date:   Wed Nov 7 14:20:07 2018 -0300
+
+    Instalacion local de version17 del servidor

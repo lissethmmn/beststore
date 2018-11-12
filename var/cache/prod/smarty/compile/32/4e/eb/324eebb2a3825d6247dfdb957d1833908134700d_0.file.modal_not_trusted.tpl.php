@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-09 18:04:07
+/* Smarty version 3.1.32, created on 2018-11-12 16:12:38
   from 'C:\xampp\htdocs\17beststore\adminbs\themes\default\template\controllers\modules\modal_not_trusted.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5be5f647dfae19_10812143',
+  'unifunc' => 'content_5be9d0a6a03a62_35072038',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5be5f647dfae19_10812143 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5be9d0a6a03a62_35072038 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="untrusted-content-action">
 

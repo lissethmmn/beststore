@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-09 18:07:51
+/* Smarty version 3.1.32, created on 2018-11-12 18:13:23
   from 'module:pslinklistviewstemplatesh' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5be5f7274380e3_12057459',
+  'unifunc' => 'content_5be9ecf3a841f2_49510996',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '906548e89c8c6025457ddaeffb1980a0c743b872' => 
     array (
       0 => 'module:pslinklistviewstemplatesh',
-      1 => 1541559755,
+      1 => 1541560197,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5be5f7274380e3_12057459 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5be9ecf3a841f2_49510996 (Smarty_Internal_Template $_smarty_tpl) {
 ?> 
 <div class="col-md-8 links">
   <div class="row">
@@ -34,26 +34,30 @@ foreach ($_from as $_smarty_tpl->tpl_vars['linkBlock']->value) {
 </h3>
       <?php $_smarty_tpl->_assignInScope('_expand_id', mt_rand(10,100000));?>
       <div class="title clearfix hidden-md-up" data-target="#footer_sub_menu_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['_expand_id']->value, ENT_QUOTES, 'UTF-8');?>
-">
+" data-toggle="collapse">
         <span class="h3"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['linkBlock']->value['title'], ENT_QUOTES, 'UTF-8');?>
 </span>
         <span class="pull-xs-right">
+          <span class="navbar-toggler collapse-icons">
+            <i class="material-icons add">&#xE313;</i>
+            <i class="material-icons remove">&#xE316;</i>
+          </span>
         </span>
       </div>
-      <ul class="footer-enlaces" id="footer_sub_menu_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['_expand_id']->value, ENT_QUOTES, 'UTF-8');?>
-">
+      <ul id="footer_sub_menu_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['_expand_id']->value, ENT_QUOTES, 'UTF-8');?>
+" class="collapse">
         <?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['linkBlock']->value['links'], 'link');
 if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['link']->value) {
 ?>
-          <span class="footer-link"><li>
+          <li>
             <a
                 id="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value['id'], ENT_QUOTES, 'UTF-8');?>
 -<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['linkBlock']->value['id'], ENT_QUOTES, 'UTF-8');?>
 "
                 class="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value['class'], ENT_QUOTES, 'UTF-8');?>
- footer-enlaces"
+"
                 href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value['url'], ENT_QUOTES, 'UTF-8');?>
 "
                 title="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value['description'], ENT_QUOTES, 'UTF-8');?>
@@ -61,7 +65,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['link']->value) {
               <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value['title'], ENT_QUOTES, 'UTF-8');?>
 
             </a>
-          </li></span>
+          </li>
         <?php
 }
 }

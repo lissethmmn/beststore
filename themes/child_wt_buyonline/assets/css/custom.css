@@ -2,6 +2,11 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
+/* Fondo del header-nav */
+#header .header-nav {
+    background: #ff6600 !important;
+}
+ 
 h3.category-title {
     background: #666666 !important;
 }
