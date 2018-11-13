@@ -1,0 +1,19 @@
+    $ git status
+    [...]
+    # Untracked files:
+    [...]
+    #       var/cache/
+    #       tmp
+    #       
+    #       
+    [...]
+    $ cat .git/info/exclude
+    # ignore objects and archives, anywhere in the tree.
+    *.[oa]
+    $ cat Documentation/.gitignore
+    $ git status
+    [...]
+    # Untracked files:
+    [...]
+    #       var/cache
+    [...]

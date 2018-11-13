@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-13 11:29:42
+/* Smarty version 3.1.32, created on 2018-11-13 12:50:41
   from 'C:\xampp\htdocs\17beststore\modules\wtblockwishlist\views\templates\hook\wtblockwishlist_top.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5beadfd626d559_06986007',
+  'unifunc' => 'content_5beaf2d15cc238_81250670',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5beadfd626d559_06986007 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5beaf2d15cc238_81250670 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 
