@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-12 18:13:19
+/* Smarty version 3.1.32, created on 2018-11-13 11:29:42
   from 'module:wtblocksearchviewstemplat' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5be9ecefce6c70_73885094',
+  'unifunc' => 'content_5beadfd6e491f6_74806429',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7e0287521fa6cc98bd18ac4144c68ef083bd9bf5' => 
     array (
       0 => 'module:wtblocksearchviewstemplat',
-      1 => 1541585264,
+      1 => 1541559760,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5be9ecefce6c70_73885094 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5beadfd6e491f6_74806429 (Smarty_Internal_Template $_smarty_tpl) {
 if (isset($_smarty_tpl->tpl_vars['hook_mobile']->value)) {?>
 <div class="input_search" data-role="fieldcontain">
 	<form method="get" action="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['link']->value->getPageLink('search',true),'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
@@ -50,7 +50,7 @@ if (isset($_smarty_tpl->tpl_vars['hook_mobile']->value)) {?>
             <?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['search_category']->value,'quotes','UTF-8' ));?>
 
         </select>
-		<input class="search_query form-control" type="text" id="search_query_top" name="s" placeholder="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Search entire store...','mod'=>'wtblocksearch'),$_smarty_tpl ) );?>
+		<input class="search_query form-control input-white" type="text" id="search_query_top" name="s" placeholder="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Search entire store...','mod'=>'wtblocksearch'),$_smarty_tpl ) );?>
 " value="<?php echo htmlspecialchars(stripslashes(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['search_query']->value,'htmlall','UTF-8' ))), ENT_QUOTES, 'UTF-8');?>
 " />
 		
@@ -58,7 +58,7 @@ if (isset($_smarty_tpl->tpl_vars['hook_mobile']->value)) {?>
 		<input type="hidden" value="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['base_ssl']->value,'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
 /controller_ajax_search.php" class="url_ajax" />
 		</div>
-		<button type="submit" name="submit_search" class="btn btn-default button-search">
+		<button type="submit" name="submit_search" class="btn btn-default button-search btn-gray">
 			<span><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Search','mod'=>'wtblocksearch'),$_smarty_tpl ) );?>
 </span>
 		</button>

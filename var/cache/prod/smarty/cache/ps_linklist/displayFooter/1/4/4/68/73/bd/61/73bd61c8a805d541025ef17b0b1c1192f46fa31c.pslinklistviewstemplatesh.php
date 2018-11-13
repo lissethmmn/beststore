@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-13 10:44:33
+/* Smarty version 3.1.32, created on 2018-11-13 11:29:43
   from 'module:pslinklistviewstemplatesh' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bead541b6c638_26149949',
+  'unifunc' => 'content_5beadfd7829753_96079536',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,18 +18,18 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_5bead541b6c638_26149949 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5beadfd7829753_96079536 (Smarty_Internal_Template $_smarty_tpl) {
 ?> 
 <div class="col-md-8 links">
   <div class="row">
       <div class="col-md-6 wrapper">
       <h3 class="h3 hidden-sm-down">Productos</h3>
-            <div class="title clearfix hidden-md-up" data-target="#footer_sub_menu_89494">
+            <div class="title clearfix hidden-md-up" data-target="#footer_sub_menu_56426">
         <span class="h3">Productos</span>
         <span class="pull-xs-right">
         </span>
       </div>
-      <ul class="footer-enlaces" id="footer_sub_menu_89494">
+      <ul class="footer-enlaces" id="footer_sub_menu_56426">
                   <span class="footer-link"><li>
             <a
                 id="link-product-page-prices-drop-1"
@@ -61,12 +61,12 @@ function content_5bead541b6c638_26149949 (Smarty_Internal_Template $_smarty_tpl)
     </div>
       <div class="col-md-6 wrapper">
       <h3 class="h3 hidden-sm-down">La Empresa</h3>
-            <div class="title clearfix hidden-md-up" data-target="#footer_sub_menu_77665">
+            <div class="title clearfix hidden-md-up" data-target="#footer_sub_menu_35192">
         <span class="h3">La Empresa</span>
         <span class="pull-xs-right">
         </span>
       </div>
-      <ul class="footer-enlaces" id="footer_sub_menu_77665">
+      <ul class="footer-enlaces" id="footer_sub_menu_35192">
                   <span class="footer-link"><li>
             <a
                 id="link-cms-page-1-2"
