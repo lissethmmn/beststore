@@ -3,7 +3,7 @@
   array (
     'database_host' => 'localhost',
     'database_port' => '',
-    'database_name' => 'beststore17new',
+    'database_name' => '17beststorenew',
     'database_user' => 'root',
     'database_password' => '',
     'database_prefix' => 'ps_',

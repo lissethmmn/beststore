@@ -1,0 +1,2 @@
+*ERROR* 	v1.7.4.2	2018/11/13 - 10:20:38: Shop not found at line 418 in file classes/shop/Shop.php
+*ERROR* 	v1.7.4.2	2018/11/13 - 10:43:43: Link to database cannot be established: SQLSTATE[HY000] [1049] Unknown database 'beststore17new' at line 120 in file classes/db/DbPDO.php
