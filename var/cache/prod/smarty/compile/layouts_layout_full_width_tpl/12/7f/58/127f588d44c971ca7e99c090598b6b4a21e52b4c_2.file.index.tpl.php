@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-13 12:21:22
+/* Smarty version 3.1.32, created on 2018-11-13 16:51:08
   from 'C:\xampp\htdocs\17beststore\themes\wt_buyonline\templates\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5beaebf2966554_04768173',
+  'unifunc' => 'content_5beb2b2ca41183_46849414',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,27 +20,27 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5beaebf2966554_04768173 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5beb2b2ca41183_46849414 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_66595beaebf295e0d2_83443295', 'page_content_container');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_301265beb2b2ca2d232_89325113', 'page_content_container');
 ?>
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'page.tpl');
 }
 /* {block 'page_content_top'} */
-class Block_116485beaebf295ef27_20417952 extends Smarty_Internal_Block
+class Block_203035beb2b2ca2e4d2_89433894 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 }
 /* {/block 'page_content_top'} */
 /* {block 'hook_home'} */
-class Block_163825beaebf2960f28_40748941 extends Smarty_Internal_Block
+class Block_91895beb2b2ca39795_07599545 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -52,13 +52,13 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'hook_home'} */
 /* {block 'page_content'} */
-class Block_40255beaebf2960268_11713321 extends Smarty_Internal_Block
+class Block_17565beb2b2ca31205_94642717 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
           <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_163825beaebf2960f28_40748941', 'hook_home', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_91895beb2b2ca39795_07599545', 'hook_home', $this->tplIndex);
 ?>
 
         <?php
@@ -66,24 +66,24 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_163825beaebf2960f2
 }
 /* {/block 'page_content'} */
 /* {block 'page_content_container'} */
-class Block_66595beaebf295e0d2_83443295 extends Smarty_Internal_Block
+class Block_301265beb2b2ca2d232_89325113 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'page_content_container' => 
   array (
-    0 => 'Block_66595beaebf295e0d2_83443295',
+    0 => 'Block_301265beb2b2ca2d232_89325113',
   ),
   'page_content_top' => 
   array (
-    0 => 'Block_116485beaebf295ef27_20417952',
+    0 => 'Block_203035beb2b2ca2e4d2_89433894',
   ),
   'page_content' => 
   array (
-    0 => 'Block_40255beaebf2960268_11713321',
+    0 => 'Block_17565beb2b2ca31205_94642717',
   ),
   'hook_home' => 
   array (
-    0 => 'Block_163825beaebf2960f28_40748941',
+    0 => 'Block_91895beb2b2ca39795_07599545',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -91,12 +91,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 
       <section id="content" class="page-home">
         <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_116485beaebf295ef27_20417952', 'page_content_top', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_203035beb2b2ca2e4d2_89433894', 'page_content_top', $this->tplIndex);
 ?>
 
 
         <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_40255beaebf2960268_11713321', 'page_content', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_17565beb2b2ca31205_94642717', 'page_content', $this->tplIndex);
 ?>
 
       </section>

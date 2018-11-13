@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-13 12:21:26
+/* Smarty version 3.1.32, created on 2018-11-13 16:51:12
   from 'C:\xampp\htdocs\17beststore\modules\wtattributes\views\templates\hook\wtattributes.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5beaebf6c06263_14822136',
+  'unifunc' => 'content_5beb2b308b5897_90817866',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5beaebf6c06263_14822136 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5beb2b308b5897_90817866 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 

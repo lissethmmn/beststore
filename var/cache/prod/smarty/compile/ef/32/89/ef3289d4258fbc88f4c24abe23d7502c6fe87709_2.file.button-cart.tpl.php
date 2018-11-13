@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-13 12:21:24
+/* Smarty version 3.1.32, created on 2018-11-13 16:51:10
   from 'C:\xampp\htdocs\17beststore\themes\child_wt_buyonline\templates\catalog\_partials\customize\button-cart.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5beaebf4890641_17446099',
+  'unifunc' => 'content_5beb2b2e734eb5_96112807',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5beaebf4890641_17446099 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5beb2b2e734eb5_96112807 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="product-add-to-cart">
 

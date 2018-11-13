@@ -1,7 +1,7 @@
 <?php
 
-/* __string_template__0f6fd372d8feb539ddcee355ec0967bd1bc9d49e500afa8042c3c7f1cb7fd22f */
-class __TwigTemplate_99cfdc7938e623d9bd588a130d9b3ec8ba8db47bb02b53e825c33bca983cf4e3 extends Twig_Template
+/* __string_template__e2afdfd09a2dc0444d9fd62da77349c0175e1f14c15911e7b2eb10956e1fa813 */
+class __TwigTemplate_ada2a0627d96bc26bcac152313692c3377de1abafcc0dea03f8252a64fd3003d extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -158,7 +158,7 @@ var show_new_orders = \"1\";
           <a
         class=\"dropdown-item js-quick-link\"
         href=\"#\"
-        data-rand=\"90\"
+        data-rand=\"95\"
         data-icon=\"icon-AdminAdvancedParameters\"
         data-method=\"add\"
         data-url=\"index.php/configure/advanced/performance\"
@@ -274,7 +274,7 @@ var show_new_orders = \"1\";
                           <div class=\"tab-pane active empty\" id=\"orders-notifications\" role=\"tabpanel\">
             <p class=\"no-notification\">
               No hay pedidos nuevos por ahora :(<br>
-              ¿Y si incluyes algunos descuentos de temporada?
+              ¿Has revisado tus <strong><a href=\"https://localhost/17beststore/adminbs/index.php?controller=AdminCarts&token=37a4b7332e698a2cd8bc94ba2cdd9d6e&action=filterOnlyAbandonedCarts\">carritos abandonados</a></strong>?<br>?. ¡Tu próximo pedido podría estar ocultándose allí!
             </p>
             <div class=\"notification-elements\"></div>
           </div>
@@ -288,7 +288,7 @@ var show_new_orders = \"1\";
                                     <div class=\"tab-pane  empty\" id=\"messages-notifications\" role=\"tabpanel\">
             <p class=\"no-notification\">
               No hay mensajes nuevo por ahora.<br>
-              Que no haya noticias, es de por sí una buena noticia, ¿verdad?
+              ¡Eso significa más tiempo para otras cosas!
             </p>
             <div class=\"notification-elements\"></div>
           </div>
@@ -1398,7 +1398,7 @@ var show_new_orders = \"1\";
 
     public function getTemplateName()
     {
-        return "__string_template__0f6fd372d8feb539ddcee355ec0967bd1bc9d49e500afa8042c3c7f1cb7fd22f";
+        return "__string_template__e2afdfd09a2dc0444d9fd62da77349c0175e1f14c15911e7b2eb10956e1fa813";
     }
 
     public function getDebugInfo()
@@ -1416,6 +1416,6 @@ var show_new_orders = \"1\";
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "__string_template__0f6fd372d8feb539ddcee355ec0967bd1bc9d49e500afa8042c3c7f1cb7fd22f", "");
+        return new Twig_Source("", "__string_template__e2afdfd09a2dc0444d9fd62da77349c0175e1f14c15911e7b2eb10956e1fa813", "");
     }
 }

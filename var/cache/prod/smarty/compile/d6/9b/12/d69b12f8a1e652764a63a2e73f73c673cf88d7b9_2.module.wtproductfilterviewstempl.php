@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-13 12:21:26
+/* Smarty version 3.1.32, created on 2018-11-13 16:51:12
   from 'module:wtproductfilterviewstempl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5beaebf6d8b442_76150635',
+  'unifunc' => 'content_5beb2b30af3701_13306491',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/customize/button-quickview.tpl' => 1,
   ),
 ),false)) {
-function content_5beaebf6d8b442_76150635 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5beb2b30af3701_13306491 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <?php if (count($_smarty_tpl->tpl_vars['tabs']->value) > 0) {?>
