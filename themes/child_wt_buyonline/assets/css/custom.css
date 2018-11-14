@@ -79,13 +79,35 @@ body#module-supercheckout-supercheckout #header .header-nav {
 /* Products Category home */
 
 .wt-prod-cat .block-products {
-
    padding-left: 30px !important;
-
 }
 
 .wt-button-container .medium-button {
     background-color: #f60 !important;
+}
+
+/* Precio del producto */
+.product-price-and-shipping {
+    font-size: 25px !important;
+}
+
+/* Recuadro de los productos */
+.wt-prod-cat .out-content-prod .ajax_block_product {
+    border: 1px solid #D8D8D8 !important;
+}
+
+/* Margen entre productos e imagen lateral */
+.wt-prod-cat .out-content-prod .ajax_block_product {
+    margin: 5px 8px !important;
+}
+
+.wt-prod-cat .block-products {
+    padding: 0 !important;
+}
+
+/* Imagen lateral derecha */
+.block-banner {
+    padding-left: 0 !important;
 }
 
 /*.medium-button {

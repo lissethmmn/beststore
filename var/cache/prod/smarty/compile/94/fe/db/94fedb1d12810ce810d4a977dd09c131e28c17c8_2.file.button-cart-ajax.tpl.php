@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-14 11:31:54
-  from 'C:\xampp\htdocs\17beststore\themes\child_wt_buyonline\templates\catalog\_partials\customize\button-cart-2.tpl' */
+/* Smarty version 3.1.32, created on 2018-11-14 09:17:25
+  from 'C:\xampp\htdocs\17beststore\themes\child_wt_buyonline\templates\catalog\_partials\customize\button-cart-ajax.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bec31da5a6243_79707418',
+  'unifunc' => 'content_5bec1255309b14_32093470',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '1631a3c27bebb3a3ec7d2d5d5d4d25914363f709' => 
+    '94fedb1d12810ce810d4a977dd09c131e28c17c8' => 
     array (
-      0 => 'C:\\xampp\\htdocs\\17beststore\\themes\\child_wt_buyonline\\templates\\catalog\\_partials\\customize\\button-cart-2.tpl',
-      1 => 1541559766,
+      0 => 'C:\\xampp\\htdocs\\17beststore\\themes\\child_wt_buyonline\\templates\\catalog\\_partials\\customize\\button-cart-ajax.tpl',
+      1 => 1541559765,
       2 => 'file',
     ),
   ),
@@ -20,11 +20,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bec31da5a6243_79707418 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bec1255309b14_32093470 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="product-add-to-cart">
 
-		  <form action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['pages']['cart'], ENT_QUOTES, 'UTF-8');?>
+		  <form action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['url_page_cart']->value, ENT_QUOTES, 'UTF-8');?>
 " method="post" id="add-to-cart-or-refresh">
                
 				<div class="product-quantity" style="display:none;">
@@ -39,7 +39,7 @@ function content_5bec31da5a6243_79707418 (Smarty_Internal_Template $_smarty_tpl)
 " id="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['name_module']->value, ENT_QUOTES, 'UTF-8');?>
 -wt-cart-id-product-<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['product']->value['id_product'], ENT_QUOTES, 'UTF-8');?>
 " wt_id_product_atrr="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['product']->value['id_product'], ENT_QUOTES, 'UTF-8');?>
-" class="medium-button add-to-cart naranjo" data-button-action="add-to-cart">
+"  class="medium-button add-to-cart hvr-sweep-to-top" data-button-action="add-to-cart">
 					<span><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Add to cart','d'=>'Shop.Theme.Actions'),$_smarty_tpl ) );?>
 </span>
 					
