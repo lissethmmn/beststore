@@ -111,6 +111,23 @@ body#module-supercheckout-supercheckout #header .header-nav {
     background-color: #666666 !important;
 }*/
 
+/*  Etiqueta de ofertas para productos */
+
+.discount-percentage {
+
+    padding-top: 5px !important;
+    padding-top: 10px !important;
+    width: 100px !important;
+    height: 41px !important;
+
+}
+
+/* Subcategorias de Tendencia*/
+
+.wt_home_filter_product_tab ul.title-tab li a:hover, .wt_home_filter_product_tab ul.title-tab li a:active,  {
+    border-bottom: 2px solid #FF6600 !important;
+}
+
 /* Sweep To Top */
 .hvr-sweep-to-top {
     display: inline-block;

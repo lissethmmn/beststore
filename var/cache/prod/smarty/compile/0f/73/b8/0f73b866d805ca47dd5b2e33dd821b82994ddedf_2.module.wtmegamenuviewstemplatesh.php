@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-14 16:22:52
+/* Smarty version 3.1.32, created on 2018-11-14 18:35:13
   from 'module:wtmegamenuviewstemplatesh' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bec760c361e57_32607771',
+  'unifunc' => 'content_5bec951127b494_71422823',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bec760c361e57_32607771 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bec951127b494_71422823 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!-- Module Megamenu-->
 <div class="container_wt_megamenu">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-14 16:23:05
+/* Smarty version 3.1.32, created on 2018-11-14 18:34:04
   from 'module:wtproductfilterviewstempl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bec76193b33a0_03599557',
+  'unifunc' => 'content_5bec94cce32343_42624706',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd69b12f8a1e652764a63a2e73f73c673cf88d7b9' => 
     array (
       0 => 'module:wtproductfilterviewstempl',
-      1 => 1541585528,
+      1 => 1542228950,
       2 => 'module',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/customize/button-quickview.tpl' => 1,
   ),
 ),false)) {
-function content_5bec76193b33a0_03599557 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bec94cce32343_42624706 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <?php if (count($_smarty_tpl->tpl_vars['tabs']->value) > 0) {?>
@@ -127,10 +127,7 @@ $_smarty_tpl->tpl_vars['__smarty_foreach_product_list']->value['last'] = $_smart
 " id-tab="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( (isset($_smarty_tpl->tpl_vars['__smarty_foreach_tabs']->value['iteration']) ? $_smarty_tpl->tpl_vars['__smarty_foreach_tabs']->value['iteration'] : null),'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
 " wt-data-id-product="<?php echo htmlspecialchars(intval($_smarty_tpl->tpl_vars['product']->value['id_product']), ENT_QUOTES, 'UTF-8');?>
 ">
-						<h3 class="product-name"><a class="product-name" href="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['product']->value['link'],'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
-" title="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['product']->value['name'],'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
-"><?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( preg_replace('!<[^>]*?>!', ' ', call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'truncate' ][ 0 ], array( $_smarty_tpl->tpl_vars['product']->value['name'],50,'...' ))),'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
-</a></h3>
+
 						<div class="product-image-container">
 									<div class="div-product-image">							
 									<a class="product_image" href="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['product']->value['link'],'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
@@ -152,13 +149,13 @@ modules/wtproductcategory/views/img/empty-lazy.gif" alt="<?php echo htmlspecialc
 											<p class="discount-percentage animated" href="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['product']->value['link'],'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
 ">
 														<span class="sale">
-														<?php if ($_smarty_tpl->tpl_vars['product']->value['specific_prices'] && $_smarty_tpl->tpl_vars['product']->value['specific_prices']['reduction_type'] == 'percentage') {?>
+<!-- 														<?php if ($_smarty_tpl->tpl_vars['product']->value['specific_prices'] && $_smarty_tpl->tpl_vars['product']->value['specific_prices']['reduction_type'] == 'percentage') {?>
 														-<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['product']->value['specific_prices']['reduction'],'quotes','UTF-8' ))*100, ENT_QUOTES, 'UTF-8');?>
 %
 														<?php } else { ?>
 														-<?php echo htmlspecialchars(floatval($_smarty_tpl->tpl_vars['product']->value['price_without_reduction']-$_smarty_tpl->tpl_vars['product']->value['price']), ENT_QUOTES, 'UTF-8');?>
 
-														<?php }?>
+														<?php }?> -->
 														</span>
 													</p>
 									<?php }?>
@@ -186,6 +183,10 @@ modules/wtproductcategory/views/img/empty-lazy.gif" alt="<?php echo htmlspecialc
 						</div>
 							
 							
+						<h3 class="product-name"><a class="product-name" href="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['product']->value['link'],'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
+" title="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['product']->value['name'],'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
+"><?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( preg_replace('!<[^>]*?>!', ' ', call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'truncate' ][ 0 ], array( $_smarty_tpl->tpl_vars['product']->value['name'],50,'...' ))),'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
+</a></h3>
 							<div class="content_price product-price-and-shipping">
 									<?php if (isset($_smarty_tpl->tpl_vars['product']->value['show_price']) && $_smarty_tpl->tpl_vars['product']->value['show_price'] && !isset($_smarty_tpl->tpl_vars['restricted_country_mode']->value)) {?>
 										<span itemprop="price" class="price <?php if (isset($_smarty_tpl->tpl_vars['product']->value['specific_prices']['reduction']) && $_smarty_tpl->tpl_vars['product']->value['specific_prices']['reduction'] > 0) {?> special-price<?php }?>">												

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-14 16:23:06
+/* Smarty version 3.1.32, created on 2018-11-14 18:34:21
   from 'module:wtajaxcartviewstemplatesf' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bec761a062a10_69852428',
+  'unifunc' => 'content_5bec94ddb7b341_22948794',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bec761a062a10_69852428 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bec94ddb7b341_22948794 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 
