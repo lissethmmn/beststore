@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-15 16:31:16
+/* Smarty version 3.1.32, created on 2018-11-15 17:15:13
   from 'C:\xampp\htdocs\17beststore\modules\wtproductfilter\views\templates\hook\wtproductfilter_ajax.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bedc984996c97_18512218',
+  'unifunc' => 'content_5bedd3d1f1f937_71283110',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/customize/button-quickview.tpl' => 1,
   ),
 ),false)) {
-function content_5bedc984996c97_18512218 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bedd3d1f1f937_71283110 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 		<?php if (isset($_smarty_tpl->tpl_vars['products_list']->value) && count($_smarty_tpl->tpl_vars['products_list']->value) > 1) {?>
 		<a id="prev<?php echo htmlspecialchars(intval($_smarty_tpl->tpl_vars['id_tab']->value), ENT_QUOTES, 'UTF-8');?>
