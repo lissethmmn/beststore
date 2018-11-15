@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-14 19:09:05
+/* Smarty version 3.1.32, created on 2018-11-15 11:33:08
   from 'C:\xampp\htdocs\17beststore\themes\child_wt_buyonline\modules\wtspecials\views\templates\hook\main_item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bec9d01bc1841_47917693',
+  'unifunc' => 'content_5bed83a42355f9_00347442',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a0257d958e7f3d433e1f722d62c5c71b69626e14' => 
     array (
       0 => 'C:\\xampp\\htdocs\\17beststore\\themes\\child_wt_buyonline\\modules\\wtspecials\\views\\templates\\hook\\main_item.tpl',
-      1 => 1542233276,
+      1 => 1542235397,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/customize/button-quickview.tpl' => 1,
   ),
 ),false)) {
-function content_5bec9d01bc1841_47917693 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bed83a42355f9_00347442 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 

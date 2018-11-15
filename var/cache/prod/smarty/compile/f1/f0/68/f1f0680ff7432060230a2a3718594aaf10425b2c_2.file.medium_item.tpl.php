@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-14 19:09:04
+/* Smarty version 3.1.32, created on 2018-11-15 11:33:07
   from 'C:\xampp\htdocs\17beststore\themes\child_wt_buyonline\modules\wtspecials\views\templates\hook\medium_item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bec9d00ca7724_27268020',
+  'unifunc' => 'content_5bed83a3d40928_03453842',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f1f0680ff7432060230a2a3718594aaf10425b2c' => 
     array (
       0 => 'C:\\xampp\\htdocs\\17beststore\\themes\\child_wt_buyonline\\modules\\wtspecials\\views\\templates\\hook\\medium_item.tpl',
-      1 => 1542233330,
+      1 => 1542235593,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/customize/button-quickview.tpl' => 1,
   ),
 ),false)) {
-function content_5bec9d00ca7724_27268020 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bed83a3d40928_03453842 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="ajax_block_product ajax_block_product js-product-miniature" data-id-product="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['product']->value['id_product'],'quotes','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
 " data-id-product-attribute="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['product']->value['id_product_attribute'],'quotes','UTF-8' )), ENT_QUOTES, 'UTF-8');?>

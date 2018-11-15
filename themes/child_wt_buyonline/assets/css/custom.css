@@ -53,7 +53,7 @@ input#search_query_top::placeholder {
 .btn-primary:hover {
     background-color: #666666 !important;
 }
-/* Ofertas diarias */
+/******** Ofertas diarias *********/
 
 #wt-special-products {
     margin-bottom: 1em;
@@ -61,6 +61,10 @@ input#search_query_top::placeholder {
 
 .wt-special-products .product-list-thumb .ajax_block_product .col-right .product-name {
     font-size: 15px;
+    margin: 10px 0 !important;
+}
+
+.wt-special-products .product-list-thumb .ajax_block_product {
     margin: 0 !important;
 }
 
@@ -76,8 +80,16 @@ body#module-supercheckout-supercheckout #header .header-nav {
     padding: 0 !important;
 }
 
-/* Products Category home */
+/* Count-down en Ofertas Diarias - Left Side */
+.wt-special-products .block_content .product-list-thumb .wt_countdown {
+    position: absolute;
+    top: 280px !important;
+    background: #fff;
+    width: 90%;
+    opacity: 0.7;
+}
 
+/********* Products Category home *************/
 
 .wt-button-container .medium-button {
     background-color: #f60 !important;
@@ -126,6 +138,14 @@ body#module-supercheckout-supercheckout #header .header-nav {
 
 .wt_home_filter_product_tab ul.title-tab li a:hover, .wt_home_filter_product_tab ul.title-tab li a:active,  {
     border-bottom: 2px solid #FF6600 !important;
+}
+
+/* Count Down*/
+.wt-special-products .block_content .wt-prod-special .wt_countdown ul li .numner span {
+    background-color: #D8D8D8 !important;
+    width: 25px !important;
+    height: 25px !important;
+    padding: 5px !important;
 }
 
 /* Sweep To Top */
