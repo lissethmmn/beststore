@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-15 13:14:52
+/* Smarty version 3.1.32, created on 2018-11-15 13:25:19
   from 'C:\xampp\htdocs\17beststore\themes\wt_buyonline\templates\_partials\stylesheets.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bed9b7ce620c6_08428727',
+  'unifunc' => 'content_5bed9def03e056_76642888',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bed9b7ce620c6_08428727 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bed9def03e056_76642888 (Smarty_Internal_Template $_smarty_tpl) {
 ?> 
  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,700i" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Fjalla One:300,400,500,600,700" rel="stylesheet">

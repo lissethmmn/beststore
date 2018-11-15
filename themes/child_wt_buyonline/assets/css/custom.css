@@ -89,12 +89,32 @@ body#module-supercheckout-supercheckout #header .header-nav {
     opacity: 0.7;
 }
 
+/* Background de Count-Down */
 .wt-special-products .block_content .product-list-thumb .wt_countdown ul li {
     display: inline-block;
     text-align: center;
     padding: 5px;
     background: #666666;
 }
+
+/* Color numeros de Count-Down */
+.wt-special-products .block_content .product-list-thumb .wt_countdown ul li .numner span {
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    color: #fff !important;
+    vertical-align: 2px;
+}
+ 
+/* Color texto de Count-Down */
+.wt-special-products .block_content .product-list-thumb .wt_countdown ul li .text p {
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 10px;
+    color: #fff !important;
+    line-height: 8px;
+}
+
 
 /*  Productos at right side */
 .wt-special-products .wt-prod-special {
