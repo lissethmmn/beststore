@@ -200,9 +200,42 @@ body#module-supercheckout-supercheckout #header .header-nav {
     height: 41px !important;
 }
 
+/********* TENDENCIAS *************/ 
+
 /* Subcategorias de Tendencia */
-.wt_home_filter_product_tab ul.title-tab li a:hover, .wt_home_filter_product_tab ul.title-tab li a:active,  {
+.wt_home_filter_product_tab ul.title-tab li a:hover  {
     border-bottom: 2px solid #FF6600 !important;
+}
+
+.wt_home_filter_product_tab .sub-cat-ul li a:active, ul.title-tab li.ui-tabs-selected a {
+    border-bottom: 2px solid #FF6600 !important;
+}
+
+
+/* Border de los productos */
+
+.wt_home_filter_product_tab .cycleElementsContainer ul.product-list li.ajax_block_product {
+    float: left;
+    position: relative;
+    height: 380px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0 3px;
+        padding-bottom: 0px;
+    padding-bottom: 15px;
+    border: 1px ridge #dddddd !important;
+            background:#fff;
+        -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+           -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -webkit-box-shadow:-10px 0 10px rgba(0, 0, 0, 0.4);
+           -moz-box-shadow:-10px 0 10px rgba(0, 0, 0, 0.4);
+                box-shadow:-10px 0 10px rgba(0, 0, 0, 0.4);
+        -webkit-transform-origin:0 100%;
+           -moz-transform-origin:0 100%;
+            -ms-transform-origin:0 100%;
+             -o-transform-origin:0 100%;
+                transform-origin:0 100%;
 }
 
 /* Sweep To Top */

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-15 11:59:57
+/* Smarty version 3.1.32, created on 2018-11-15 14:49:43
   from 'C:\xampp\htdocs\17beststore\themes\wt_buyonline\templates\catalog\_partials\product-discounts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bed89ed3f85a2_74816728',
+  'unifunc' => 'content_5bedb1b7624709_90299513',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bed89ed3f85a2_74816728 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bedb1b7624709_90299513 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -29,19 +29,19 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
     <h3 class="h6 product-discounts-title"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Volume discounts','d'=>'Shop.Theme.Catalog'),$_smarty_tpl ) );?>
 </h3>
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_29655bed89ed3cd2d2_01182969', 'product_discount_table');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_6165bedb1b75f74e8_87773488', 'product_discount_table');
 ?>
 
   <?php }?>
 </section>
 <?php }
 /* {block 'product_discount_table'} */
-class Block_29655bed89ed3cd2d2_01182969 extends Smarty_Internal_Block
+class Block_6165bedb1b75f74e8_87773488 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'product_discount_table' => 
   array (
-    0 => 'Block_29655bed89ed3cd2d2_01182969',
+    0 => 'Block_6165bedb1b75f74e8_87773488',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
