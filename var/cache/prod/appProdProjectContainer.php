@@ -16,6 +16,6 @@ if (!\class_exists(appProdProjectContainer::class, false)) {
 
 return new \ContainerDu0jvkx\appProdProjectContainer(array(
     'container.build_hash' => 'Du0jvkx',
-    'container.build_id' => '5c3abaac',
-    'container.build_time' => 1542310868,
+    'container.build_id' => 'f6e1ba80',
+    'container.build_time' => 1542398546,
 ), __DIR__.\DIRECTORY_SEPARATOR.'ContainerDu0jvkx');

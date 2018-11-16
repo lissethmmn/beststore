@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-15 17:14:21
+/* Smarty version 3.1.32, created on 2018-11-16 18:26:38
   from 'C:\xampp\htdocs\17beststore\modules\wtproductcategory\views\templates\hook\wtproductcategory_accordion.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bedd39d4ea864_50403190',
+  'unifunc' => 'content_5bef360ee67da9_68024079',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./medium_item.tpl' => 1,
   ),
 ),false)) {
-function content_5bedd39d4ea864_50403190 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bef360ee67da9_68024079 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('number_line', 2);
 $_smarty_tpl->_assignInScope('dem', 0);
 $_smarty_tpl->_assignInScope('id_lang', Context::getContext()->language->id);

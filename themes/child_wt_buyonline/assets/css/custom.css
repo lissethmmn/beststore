@@ -53,8 +53,8 @@ input#search_query_top::placeholder {
 .btn-primary:hover {
     background-color: #666666 !important;
 }
-/******** Ofertas diarias *********/
 
+/******** Ofertas diarias *********/
 #wt-special-products {
     margin-bottom: 1em;
 }
@@ -184,7 +184,7 @@ body#module-supercheckout-supercheckout #header .header-nav {
 
 /* Imagen lateral derecha */
 .block-banner {
-    padding-left: 0 !important;
+    padding-left: 80px !important;
 }
 
 /*.medium-button {
@@ -193,11 +193,15 @@ body#module-supercheckout-supercheckout #header .header-nav {
 
 /*  Etiqueta de ofertas para productos */
 
+#wt-special-products .product-image-container .discount-percentage {
+    top: 10px;
+    left: 15px !important;
+}
+
 .discount-percentage {
-    padding-top: 5px !important;
-    padding-top: 10px !important;
-    width: 100px !important;
-    height: 41px !important;
+    padding-top: 0px !important;
+    width: 40px !important;
+    height: 20px !important;
 }
 
 /********* TENDENCIAS *************/ 
@@ -324,7 +328,7 @@ span.footer-link li {
     padding-left: 1.75rem;
 }
 
-/*  Responsive * /
+/**********  Responsive ********** /
 @media (min-width: 1600px) {
    /* .block-products {
         width: 80% !important;

@@ -66,13 +66,13 @@
 						<div class="product-image-container">
 									<div class="div-product-image">							
 									<a class="product_image" href="{$product.link|escape:'html':'UTF-8'}" title="{$product.legend|escape:'html':'UTF-8'}">
-										<img class="img-responsive wt-image lazy" data-animate="zoomIn" data-delay="30" data-original="{$link->getImageLink($product.link_rewrite, $product.id_image, 'home_default')|escape:'html':'UTF-8'}" src="{$path_ssl|escape:'html':'UTF-8'}modules/wtproductcategory/views/img/empty-lazy.gif" alt="{$product.legend|escape:'html':'UTF-8'}" />
+										<img class="img-responsive wt-image lazy" data-animate="zoomIn" data-delay="30"data-original="{$link->getImageLink($product.link_rewrite, $product.id_image, 'home_default')|escape:'html':'UTF-8'}" src="{$path_ssl|escape:'html':'UTF-8'}modules/wtproductcategory/views/img/empty-lazy.gif" alt="{$product.legend|escape:'html':'UTF-8'}" />
 										<span class="overlay"></span>
 									</a>
-									<!--
+									
 									{if isset($product.new) && $product.new == 1}
 									<span class="new-label"><span>{l s='New' mod='wtproductfilter'}</span></span>
-									{/if}-->									
+									{/if}									
 									{if isset($product.show_price) && $product.show_price && !isset($restricted_country_mode)}
 									{if isset($product.specific_prices) && $product.specific_prices && isset($product.specific_prices.reduction) && $product.specific_prices.reduction > 0}
 											<p class="discount-percentage animated" href="{$product.link|escape:'html':'UTF-8'}">

@@ -131,7 +131,7 @@ function runSliderProducstCat()
 	if(getWidthBrowser() > 1180)
 		{	
 			item_sub_catpro = 7;
-			item_catpro = 4;
+			item_catpro = 5;
 		}
 		else
 		if(getWidthBrowser() > 991)

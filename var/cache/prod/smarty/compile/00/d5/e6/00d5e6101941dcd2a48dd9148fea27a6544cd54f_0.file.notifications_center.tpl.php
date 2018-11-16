@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-15 16:57:15
+/* Smarty version 3.1.32, created on 2018-11-16 18:28:02
   from 'C:\xampp\htdocs\17beststore\adminbs\themes\new-theme\template\components\layout\notifications_center.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bedcf9bd0a101_66400411',
+  'unifunc' => 'content_5bef3662708ab4_38107726',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bedcf9bd0a101_66400411 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bef3662708ab4_38107726 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="notif" class="notification-center dropdown dropdown-clickable">
   <button class="btn notification js-notification dropdown-toggle" data-toggle="dropdown">
     <i class="material-icons">notifications_none</i>
