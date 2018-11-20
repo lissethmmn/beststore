@@ -32,7 +32,7 @@
 <div class="block-content clearfix">
 	<div id="wt-prod-cat-{$cat_info.id_cat|intval}" class="row">
 	
-		<div class="block-products col-sm-9 col-md-9 {if $dem%2 ==0}right{/if}">
+		<div class="block-products col-sm-6 col-md-9 {if $dem%2 ==0}right{/if}">
 			
 			<div class="content-product-sub-cat" id="content-product-sub-cat-{$smarty.foreach.g_cat_info.iteration|intval}">
 				{if isset($cat_info.product_list) && count($cat_info.product_list) > 0}
@@ -50,18 +50,8 @@
 									
 							{include file='./medium_item.tpl'}				
 
-						
-						
-						
-			
-						
-						
-						
-						
 						</li>
 					
-						
-						
 						{/foreach}
 						</ul>
 						</div>

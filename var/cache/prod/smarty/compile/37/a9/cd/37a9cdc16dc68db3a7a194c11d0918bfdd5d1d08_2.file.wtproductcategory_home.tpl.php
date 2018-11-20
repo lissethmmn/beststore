@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-20 16:51:06
+/* Smarty version 3.1.32, created on 2018-11-20 17:32:43
   from 'C:\xampp\htdocs\17beststore\modules\wtproductcategory\views\templates\hook\wtproductcategory_home.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bf465aac7f8b4_69549186',
+  'unifunc' => 'content_5bf46f6b60b5f5_26575918',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '37a9cdc16dc68db3a7a194c11d0918bfdd5d1d08' => 
     array (
       0 => 'C:\\xampp\\htdocs\\17beststore\\modules\\wtproductcategory\\views\\templates\\hook\\wtproductcategory_home.tpl',
-      1 => 1541585478,
+      1 => 1542124794,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./wtproductcategory_tab.tpl' => 1,
   ),
 ),false)) {
-function content_5bf465aac7f8b4_69549186 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf46f6b60b5f5_26575918 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!-- Module Product From Category -->
 <div class="wt-prod-cat clearfix" id="wt-prod-cat-base-ssl" static_token="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['static_token']->value, ENT_QUOTES, 'UTF-8');?>

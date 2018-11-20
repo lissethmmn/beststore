@@ -89,7 +89,7 @@
 									<div class="thumbs-content" id="{$name_module|escape:'html':'UTF-8'}-{$smarty.foreach.tabs.iteration|escape:'html':'UTF-8'}-wt-thumbs-content-{$product.id_product|intval}"></div>
 									</div>
 							<div class="wt-button-container">
-							{include file='catalog/_partials/customize/button-cart-2.tpl' product=$product name_module=$name_module}
+							{include file='catalog/_partials/customize/button-cart.tpl' product=$product name_module=$name_module}
 							{include file='catalog/_partials/customize/button-quickview.tpl' product=$product}
 							{hook h='displayProductListFunctionalButtons' product=$product}
 							</div>

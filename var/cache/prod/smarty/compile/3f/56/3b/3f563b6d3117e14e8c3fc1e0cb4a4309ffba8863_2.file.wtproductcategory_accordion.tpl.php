@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-20 16:51:06
+/* Smarty version 3.1.32, created on 2018-11-20 17:32:43
   from 'C:\xampp\htdocs\17beststore\modules\wtproductcategory\views\templates\hook\wtproductcategory_accordion.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bf465aadaab93_86391099',
+  'unifunc' => 'content_5bf46f6b7cbf09_22635417',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3f563b6d3117e14e8c3fc1e0cb4a4309ffba8863' => 
     array (
       0 => 'C:\\xampp\\htdocs\\17beststore\\modules\\wtproductcategory\\views\\templates\\hook\\wtproductcategory_accordion.tpl',
-      1 => 1542718137,
+      1 => 1542717741,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./medium_item.tpl' => 1,
   ),
 ),false)) {
-function content_5bf465aadaab93_86391099 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf46f6b7cbf09_22635417 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('number_line', 2);
 $_smarty_tpl->_assignInScope('dem', 0);
 $_smarty_tpl->_assignInScope('id_lang', Context::getContext()->language->id);
@@ -37,8 +37,23 @@ $_smarty_tpl->_assignInScope('dem', $_smarty_tpl->tpl_vars['dem']->value+1);?>
 	<div id="wt-prod-cat-<?php echo htmlspecialchars(intval($_smarty_tpl->tpl_vars['cat_info']->value['id_cat']), ENT_QUOTES, 'UTF-8');?>
 " class="row">
 	
-		<div class="block-products col-sm-9 col-md-9">
+		<div class="block-products col-sm-6 col-md-9 <?php if ($_smarty_tpl->tpl_vars['dem']->value%2 == 0) {?>right<?php }?>">
 			
+					<?php if ($_smarty_tpl->tpl_vars['cat_info']->value['cat_icon'] != '') {?>
+					<div class="icon_cat">
+					   <img src="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['icon_path']->value,'html','UTF-8' )), ENT_QUOTES, 'UTF-8');
+echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['cat_info']->value['cat_icon'],'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
+" alt=""/>
+					</div>
+					<?php }?>
+					<h3>
+						<a href="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['link']->value->getCategoryLink($_smarty_tpl->tpl_vars['cat_info']->value['id_cat'],$_smarty_tpl->tpl_vars['cat_info']->value['link_rewrite']),'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
+" title="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['cat_info']->value['cat_name'],'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
+"><?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['cat_info']->value['cat_name'],'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
+</a>
+					</h3>
+					
+				
 			<div class="content-product-sub-cat" id="content-product-sub-cat-<?php echo htmlspecialchars(intval((isset($_smarty_tpl->tpl_vars['__smarty_foreach_g_cat_info']->value['iteration']) ? $_smarty_tpl->tpl_vars['__smarty_foreach_g_cat_info']->value['iteration'] : null)), ENT_QUOTES, 'UTF-8');?>
 ">
 				<?php if (isset($_smarty_tpl->tpl_vars['cat_info']->value['product_list']) && count($_smarty_tpl->tpl_vars['cat_info']->value['product_list']) > 0) {?>
@@ -76,17 +91,7 @@ $_smarty_tpl->tpl_vars['__smarty_foreach_product_list']->value['last'] = $_smart
 							<?php $_smarty_tpl->_subTemplateRender('file:./medium_item.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, true);
 ?>				
 
-						
-						
-						
-			
-						
-						
-						
-						
 						</li>
-					
-						
 						
 						<?php
 }
@@ -106,7 +111,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 		</div>
 		
 		
-		<div class="block-banner col-sm-3 col-md-3">
+		<div class="block-banner col-sm-3 col-md-3 <?php if ($_smarty_tpl->tpl_vars['dem']->value%2 == 0) {?>right<?php }?>">
 			<div class="cat-banner">
 				<?php if ($_smarty_tpl->tpl_vars['cat_info']->value['cat_banner'] != '') {?>
 				<a href="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['link']->value->getCategoryLink($_smarty_tpl->tpl_vars['cat_info']->value['id_cat'],$_smarty_tpl->tpl_vars['cat_info']->value['link_rewrite']),'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
@@ -166,17 +171,17 @@ $(window).resize(function() {
 function runSliderProducstCat()
 {
 	var item_sub_catpro = 7;
-	var item_catpro = 5; 
+	var item_catpro = 6; 
 	if(getWidthBrowser() > 1680)
 		{	
 			item_sub_catpro = 7;
-			item_catpro = 5;
+			item_catpro = 6;
 		}
 	else		
 	if(getWidthBrowser() > 1180)
 		{	
 			item_sub_catpro = 7;
-			item_catpro = 4;
+			item_catpro = 5;
 		}
 		else
 		if(getWidthBrowser() > 991)

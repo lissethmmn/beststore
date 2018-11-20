@@ -32,8 +32,18 @@
 <div class="block-content clearfix">
 	<div id="wt-prod-cat-{$cat_info.id_cat|intval}" class="row">
 	
-		<div class="block-products col-sm-9 col-md-9">
+		<div class="block-products col-sm-6 col-md-9 {if $dem%2 ==0}right{/if}">
 			
+					{if $cat_info.cat_icon!='' }
+					<div class="icon_cat">
+					   <img src="{$icon_path|escape:'html':'UTF-8'}{$cat_info.cat_icon|escape:'html':'UTF-8'}" alt=""/>
+					</div>
+					{/if}
+					<h3>
+						<a href="{$link->getCategoryLink($cat_info.id_cat, $cat_info.link_rewrite)|escape:'html':'UTF-8'}" title="{$cat_info.cat_name|escape:'html':'UTF-8'}">{$cat_info.cat_name|escape:'html':'UTF-8'}</a>
+					</h3>
+					
+				
 			<div class="content-product-sub-cat" id="content-product-sub-cat-{$smarty.foreach.g_cat_info.iteration|intval}">
 				{if isset($cat_info.product_list) && count($cat_info.product_list) > 0}
 				<div class="cycleElementsContainer" id="cycle-{$smarty.foreach.g_cat_info.iteration|escape:'html':'UTF-8'}">	
@@ -50,17 +60,7 @@
 									
 							{include file='./medium_item.tpl'}				
 
-						
-						
-						
-			
-						
-						
-						
-						
 						</li>
-					
-						
 						
 						{/foreach}
 						</ul>
@@ -76,7 +76,7 @@
 		</div>
 		
 		
-		<div class="block-banner col-sm-3 col-md-3">
+		<div class="block-banner col-sm-3 col-md-3 {if $dem%2 ==0}right{/if}">
 			<div class="cat-banner">
 				{if $cat_info.cat_banner!='' }
 				<a href="{$link->getCategoryLink($cat_info.id_cat, $cat_info.link_rewrite)|escape:'html':'UTF-8'}" title="{$cat_info.cat_name|escape:'html':'UTF-8'}"><img src="{$banner_path|escape:'html':'UTF-8'}{$cat_info.cat_banner|escape:'html':'UTF-8'}" alt=""/></a>
@@ -121,17 +121,17 @@ $(window).resize(function() {
 function runSliderProducstCat()
 {
 	var item_sub_catpro = 7;
-	var item_catpro = 5; 
+	var item_catpro = 6; 
 	if(getWidthBrowser() > 1680)
 		{	
 			item_sub_catpro = 7;
-			item_catpro = 5;
+			item_catpro = 6;
 		}
 	else		
 	if(getWidthBrowser() > 1180)
 		{	
 			item_sub_catpro = 7;
-			item_catpro = 4;
+			item_catpro = 5;
 		}
 		else
 		if(getWidthBrowser() > 991)

@@ -40,8 +40,8 @@ $(document).ready(function(){
 		$('#content-product-sub-cat-'+id_group).html(loanding);
 		
 		getProductCat(id_group, id_cat, number_prod, name_module);
-		
-	});
+		
+	});
 });
 
 
