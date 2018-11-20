@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-16 18:26:38
+/* Smarty version 3.1.32, created on 2018-11-20 16:51:06
   from 'C:\xampp\htdocs\17beststore\modules\wtproductcategory\views\templates\hook\wtproductcategory_accordion.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bef360ee67da9_68024079',
+  'unifunc' => 'content_5bf465aadaab93_86391099',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3f563b6d3117e14e8c3fc1e0cb4a4309ffba8863' => 
     array (
       0 => 'C:\\xampp\\htdocs\\17beststore\\modules\\wtproductcategory\\views\\templates\\hook\\wtproductcategory_accordion.tpl',
-      1 => 1541585480,
+      1 => 1542718137,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./medium_item.tpl' => 1,
   ),
 ),false)) {
-function content_5bef360ee67da9_68024079 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf465aadaab93_86391099 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('number_line', 2);
 $_smarty_tpl->_assignInScope('dem', 0);
 $_smarty_tpl->_assignInScope('id_lang', Context::getContext()->language->id);

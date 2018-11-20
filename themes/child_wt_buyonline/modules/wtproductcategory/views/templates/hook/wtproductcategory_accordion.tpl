@@ -121,11 +121,11 @@ $(window).resize(function() {
 function runSliderProducstCat()
 {
 	var item_sub_catpro = 7;
-	var item_catpro = 5; 
+	var item_catpro = 6; 
 	if(getWidthBrowser() > 1680)
 		{	
 			item_sub_catpro = 7;
-			item_catpro = 5;
+			item_catpro = 6;
 		}
 	else		
 	if(getWidthBrowser() > 1180)

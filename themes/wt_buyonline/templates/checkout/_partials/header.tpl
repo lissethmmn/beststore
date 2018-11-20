@@ -40,10 +40,8 @@
     <div class="container">
         <div class="row">
           <div class="hidden-sm-down">
-            <div class="col-md-4 left-nav col-xs-12">
+            <div class="col-md-12 right-nav">
               {hook h='displayNav1'}
-            </div>
-            <div class="col-md-8 right-nav">
                 {hook h='displayNav2'}
             </div>
           </div>
@@ -65,15 +63,17 @@
   <div class="header-top">
     <div class="container">
        <div class="row">
-        <div class="col-md-3 hidden-sm-down" id="_desktop_logo">
+        <div class="col-md-2 hidden-sm-down" id="_desktop_logo">
           <a href="{$urls.base_url}">
             <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
           </a>
         </div>
-		
-		
-        <div class="col-md-9 col-sm-12 position-static"> 
-            {hook h='displayTop'}  
+		 {hook h='displayTopMenu'}
+        <div class="col-md-10 col-sm-12 position-static">
+          <div class="row">
+            {hook h='displayTop'}
+           
+          </div>
         </div>
       </div>
       <div id="mobile_top_menu_wrapper" class="row hidden-md-up" style="display:none;">
@@ -85,18 +85,18 @@
         </div>
       </div>
     </div>
-	 
   </div>
-  
   {hook h='displayNavFullWidth'}
- {hook h='displayTopMenu'}
+ 
 	
 	<div class="container">
 		
-		<div class="wt-verticalmenu">
+		<div class="wt-verticalmenu col-xs-12 col-sm-3">
 		{hook h='displayLeftMenu'}
 		</div>
-		
+		<div class="wt-topsearch col-xs-12 col-sm-9">
+		{hook h='displayTopSearch'}
+		</div>
 	</div>
 		
 	{if $page.page_name == 'index'}
@@ -106,10 +106,9 @@
 		
 
 		{hook h='displayTopColumn'}
-		<div class="container">
 		{hook h='displayTopHome'}
 		{hook h='displayCenterHome'}
-		</div>
+		
 		{hook h='displayBottomHome'}
 	{/if}
 	

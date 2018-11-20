@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-16 18:28:52
+/* Smarty version 3.1.32, created on 2018-11-20 16:50:59
   from 'C:\xampp\htdocs\17beststore\themes\wt_buyonline\templates\_partials\stylesheets.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bef369407cb64_17802289',
+  'unifunc' => 'content_5bf465a383a345_62957040',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e87d5ae87cdf7f9e259f2f9e0c4959b87493f9da' => 
     array (
       0 => 'C:\\xampp\\htdocs\\17beststore\\themes\\wt_buyonline\\templates\\_partials\\stylesheets.tpl',
-      1 => 1541560209,
+      1 => 1542124796,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bef369407cb64_17802289 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf465a383a345_62957040 (Smarty_Internal_Template $_smarty_tpl) {
 ?> 
  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,700i" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Fjalla One:300,400,500,600,700" rel="stylesheet">

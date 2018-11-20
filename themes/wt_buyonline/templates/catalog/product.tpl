@@ -83,7 +83,6 @@
           {/block}
 		   {block name='product_description_short'}
               <div id="product-description-short-{$product.id}" itemprop="description">{$product.description_short nofilter}</div>
-              <div id="product-reference-{$product.id}" itemprop="description"><span class="sku-title"><strong>SKU: </strong></span>{$product.reference nofilter}</div>
             {/block}
           {block name='product_prices'}
             {include file='catalog/_partials/product-prices.tpl'}

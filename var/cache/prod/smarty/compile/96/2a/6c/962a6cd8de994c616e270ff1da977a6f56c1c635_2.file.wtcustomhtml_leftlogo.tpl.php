@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-16 18:28:53
+/* Smarty version 3.1.32, created on 2018-11-20 16:51:13
   from 'C:\xampp\htdocs\17beststore\modules\wtcustomhtml\views\templates\hook\wtcustomhtml_leftlogo.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bef3695cfd987_07298121',
+  'unifunc' => 'content_5bf465b19ceb53_40432198',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bef3695cfd987_07298121 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf465b19ceb53_40432198 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!-- Static Block module -->
 <?php
