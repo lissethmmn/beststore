@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-21 15:07:12
+/* Smarty version 3.1.32, created on 2018-11-21 17:25:30
   from 'C:\xampp\htdocs\17beststore\themes\wt_buyonline\templates\catalog\_partials\customize\button-quickview.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bf59ed0e1acb9_75915358',
+  'unifunc' => 'content_5bf5bf3a428ab8_20612640',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bf59ed0e1acb9_75915358 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf5bf3a428ab8_20612640 (Smarty_Internal_Template $_smarty_tpl) {
 ?>						
 <div class="product-quick-view">		
 <a href="javascript:void(0);" class="medium-button quick-view" data-toggle="tooltip" data-placement="top" data-link-action="quickview" title="quickview" rel="#">

@@ -2,4 +2,224 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
- #header{ background: red !important; }
+
+ /* Titulo de categorias */
+h3.category-title {
+    background: #666666 !important;
+}
+
+
+/******* HEADER DE LA PAGINA *********/
+
+/* Fondo del header-nav */
+#header .header-nav {
+    background: #ff6600 !important;
+}
+
+
+/* 21/11/18 */
+#header .header-top {
+    background: #666666 !important;
+}
+
+/* Logo */
+div#logo-best {
+    padding-bottom: 1rem;
+}
+
+/* Campo de búsqueda de Todas las categorias */
+select#search_category {
+    background: #666666;
+}
+
+select#search_category,
+input#search_query_top::placeholder {
+    color: #FFF !important;
+}
+
+#search_filters a {
+    font-size: 0.75rem !important;
+}
+
+/* BORDE DEL CAMPO DE BUSQUEDA */
+form#searchbox {
+    border-color: #ff6600 !important;
+}
+
+/* Botón de búsqueda */
+.button-search:hover {
+    background: #FF6600 !important;
+}
+
+/* Color de enlace del menú */
+.level-1.menu-banner a {
+    color: #161616 !important;
+}
+
+/* Fondo del submenú */
+.menu-dropdown.cat-drop-menu {
+    background: #ffffff !important;
+}
+
+/*************** SPECIAL PRODUCTS *****************/
+#wt-special-products {
+    margin-bottom: 1em;
+}
+
+/******** PRODUCT CATEGORY *******/
+
+/* Columna de productos a la izquierda */
+.wt-prod-cat .block-products {
+    float: left !important;
+}
+
+/* Imagen de la categoria a la derecha */
+.block-banner {
+    padding-left: 40px !important;
+}
+
+/* Botón de compra */
+.btn-primary {
+    background-color: #ff6600 !important;
+}
+
+.btn-primary:hover {
+    background-color: #666666 !important;
+}
+
+/* EFECTO DEL BOTON */
+
+/* Sweep To Top */
+.hvr-sweep-to-top {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.hvr-sweep-to-top:before {
+    content: "" !important;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #f60;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-sweep-to-top:hover,
+.hvr-sweep-to-top:focus,
+.hvr-sweep-to-top:active {
+    color: white;
+}
+
+.hvr-sweep-to-top:hover:before,
+.hvr-sweep-to-top:focus:before,
+.hvr-sweep-to-top:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+.product-name {
+    font-size: 1rem !important;
+}
+
+/************ TENDENCIA ***************/
+.sub-cat-ul a {
+    color: #161616 !important;
+}
+
+
+/************** FOOTER *************/
+.cms-page-link:hover {
+    color: #FF6600 !important;
+}
+
+#footer_information .material-icons {
+    color: #FFf !important;
+}
+
+.footer-container .links {
+    display: inherit;
+    font-family: 'Muli',sans-serif;
+    font-size: 14px;
+    line-height: 2;
+    color: #fff !important;
+}
+
+.footer-container li a {
+    color: #fff !important;
+}
+
+span.footer-contact {
+    padding-left: 1.75rem !important;
+}
+.footer-enlaces {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+span.footer-link li {
+    padding-left: 1.75rem !important;
+}
+
+/* 21/11/18 */
+.footer-container {
+    background-color: #666666 !important;
+}
+
+/************* MODULOS ****************/
+#module-khipupayment-bankselect div#content-wrapper {
+    height: 10rem !important;
+}
+
+body#module-supercheckout-supercheckout #header .header-nav {
+    padding: 0 !important;
+}
+
+
+/******* RESPONSIVE **********/
+
+@media (min-width: 1600px) {
+   /* .block-products {
+        width: 80% !important;
+    }*/
+}
+
+@media (max-width: 767px) {
+    .wt-prod-cat {
+        display: none !important;
+    }
+
+    .header-nav {
+        background: #666666 !important;
+    }
+    div#logo-best {
+	    padding: 1rem 0;
+	}
+	.footer-container .links .title {
+	    border-top: none !important;
+	}
+}
+
+@media (min-width: 768px) {
+    .header-nav {
+        background: #FF6600 !important;
+    }
+}

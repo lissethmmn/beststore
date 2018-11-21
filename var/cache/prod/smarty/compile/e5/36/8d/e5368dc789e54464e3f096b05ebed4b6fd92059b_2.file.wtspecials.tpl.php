@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-21 15:07:12
+/* Smarty version 3.1.32, created on 2018-11-21 17:25:29
   from 'C:\xampp\htdocs\17beststore\modules\wtspecials\views\templates\hook\wtspecials.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bf59ed085f8c3_26196228',
+  'unifunc' => 'content_5bf5bf39a62e42_99105238',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./medium_item.tpl' => 1,
   ),
 ),false)) {
-function content_5bf59ed085f8c3_26196228 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf5bf39a62e42_99105238 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('number_line', 1);?>
 <div id="wt-special-products" class="wt-special-products col-xs-12">
 	<div class="title-block">

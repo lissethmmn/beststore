@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-21 15:07:35
+/* Smarty version 3.1.32, created on 2018-11-21 17:25:24
   from 'C:\xampp\htdocs\17beststore\modules\wtblockwishlist\views\templates\hook\wtblockwishlist_nav.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bf59ee709ee04_59283849',
+  'unifunc' => 'content_5bf5bf3491c253_92561752',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bf59ee709ee04_59283849 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf5bf3491c253_92561752 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="top-wishlists">
 <a class="icon" href="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['link']->value->getModuleLink('wtblockwishlist','mywishlist',array(),true),'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
 " title="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'My wishlists','mod'=>'wtblockwishlist'),$_smarty_tpl ) );?>

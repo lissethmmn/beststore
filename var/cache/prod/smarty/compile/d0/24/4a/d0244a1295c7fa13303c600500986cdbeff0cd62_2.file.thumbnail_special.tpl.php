@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-21 15:07:18
+/* Smarty version 3.1.32, created on 2018-11-21 17:25:35
   from 'C:\xampp\htdocs\17beststore\modules\wtproductfilter\views\templates\hook\thumbnail_special.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bf59ed6492f24_31468683',
+  'unifunc' => 'content_5bf5bf3f0ac526_08614861',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bf59ed6492f24_31468683 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf5bf3f0ac526_08614861 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['wt_thumbnails']->value) {?>
 	<div class="thumbs-content">
 		<a id="view_scroll_left<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['wt_thumbnails_key']->value,'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>

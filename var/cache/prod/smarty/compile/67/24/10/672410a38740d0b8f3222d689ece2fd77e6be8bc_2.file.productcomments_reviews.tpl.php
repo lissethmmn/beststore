@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-21 15:07:29
+/* Smarty version 3.1.32, created on 2018-11-21 17:25:45
   from 'C:\xampp\htdocs\17beststore\modules\wtproductcomments\views\templates\hook\productcomments_reviews.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bf59ee147a013_63668203',
+  'unifunc' => 'content_5bf5bf49dd31f8_05064649',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bf59ee147a013_63668203 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf5bf49dd31f8_05064649 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['nbComments']->value > 0) {?>
 
 <div class="comments_note">	

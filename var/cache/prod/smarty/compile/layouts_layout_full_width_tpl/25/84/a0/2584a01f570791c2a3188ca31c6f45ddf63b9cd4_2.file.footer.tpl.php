@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-21 15:07:36
+/* Smarty version 3.1.32, created on 2018-11-21 17:25:46
   from 'C:\xampp\htdocs\17beststore\themes\wt_buyonline\templates\_partials\footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bf59ee89e92c7_10420903',
+  'unifunc' => 'content_5bf5bf4a17aba8_39136452',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bf59ee89e92c7_10420903 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf5bf4a17aba8_39136452 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0], array( array('h'=>'displayWrapperBottom'),$_smarty_tpl ) );?>
@@ -30,20 +30,20 @@ echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUG
     <div class="row">
 	 <div class="col-md-4">
 	 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_226635bf59ee89de348_18624160', 'hook_footer_before');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_307125bf5bf4a172495_80170181', 'hook_footer_before');
 ?>
 
 	</div>
 	<div class="col-md-8">
       <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_9485bf59ee89e3490_30402313', 'hook_footer');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_217135bf5bf4a174be7_65701606', 'hook_footer');
 ?>
 
     </div>
 	</div>
     <div class="row">
       <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_71335bf59ee89e5ba9_35478010', 'hook_footer_after');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_315425bf5bf4a177443_28321868', 'hook_footer_after');
 ?>
 
     </div>
@@ -66,12 +66,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_71335bf59ee89e5ba9
 </div>
 <?php }
 /* {block 'hook_footer_before'} */
-class Block_226635bf59ee89de348_18624160 extends Smarty_Internal_Block
+class Block_307125bf5bf4a172495_80170181 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'hook_footer_before' => 
   array (
-    0 => 'Block_226635bf59ee89de348_18624160',
+    0 => 'Block_307125bf5bf4a172495_80170181',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -84,12 +84,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'hook_footer_before'} */
 /* {block 'hook_footer'} */
-class Block_9485bf59ee89e3490_30402313 extends Smarty_Internal_Block
+class Block_217135bf5bf4a174be7_65701606 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'hook_footer' => 
   array (
-    0 => 'Block_9485bf59ee89e3490_30402313',
+    0 => 'Block_217135bf5bf4a174be7_65701606',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -102,12 +102,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'hook_footer'} */
 /* {block 'hook_footer_after'} */
-class Block_71335bf59ee89e5ba9_35478010 extends Smarty_Internal_Block
+class Block_315425bf5bf4a177443_28321868 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'hook_footer_after' => 
   array (
-    0 => 'Block_71335bf59ee89e5ba9_35478010',
+    0 => 'Block_315425bf5bf4a177443_28321868',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
