@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-21 13:24:50
+/* Smarty version 3.1.32, created on 2018-11-21 15:07:29
   from 'module:wtmanufactureviewstemplat' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bf586d284c164_00862667',
+  'unifunc' => 'content_5bf59ee15a5e53_10094416',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bf586d284c164_00862667 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf59ee15a5e53_10094416 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="wt_logo_manufacturer col-sm-12">
 <div class="container">
