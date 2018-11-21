@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-16 18:28:34
+/* Smarty version 3.1.32, created on 2018-11-21 13:25:46
   from 'C:\xampp\htdocs\17beststore\modules\wtproductcategory\views\templates\admin\displaystatus.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bef368223ed74_24455173',
+  'unifunc' => 'content_5bf5870a1cd681_85722629',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '73cff88ceba158ecc424bf4a26a7aff5d31d9c9f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\17beststore\\modules\\wtproductcategory\\views\\templates\\admin\\displaystatus.tpl',
-      1 => 1541585473,
+      1 => 1542124794,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bef368223ed74_24455173 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf5870a1cd681_85722629 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <a class="btn <?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['class']->value,'quotes','UTF-8' ));?>
 " href="<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['link']->value,'quotes','UTF-8' ));?>

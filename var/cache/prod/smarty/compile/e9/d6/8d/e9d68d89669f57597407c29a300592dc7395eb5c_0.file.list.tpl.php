@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-16 18:28:34
+/* Smarty version 3.1.32, created on 2018-11-21 13:25:46
   from 'C:\xampp\htdocs\17beststore\modules\wtproductcategory\views\templates\admin\list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bef368237c2a6_67973434',
+  'unifunc' => 'content_5bf5870a2bb029_19894222',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e9d68d89669f57597407c29a300592dc7395eb5c' => 
     array (
       0 => 'C:\\xampp\\htdocs\\17beststore\\modules\\wtproductcategory\\views\\templates\\admin\\list.tpl',
-      1 => 1541585472,
+      1 => 1542124794,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bef368237c2a6_67973434 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf5870a2bb029_19894222 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="panel"><h3><i class="icon-list-ul"></i> <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Category Group','d'=>'Modules.WTProductCategory.Admin'),$_smarty_tpl ) );?>
 

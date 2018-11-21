@@ -155,7 +155,7 @@ class __TwigTemplate_df3acbf601aaa93dde117c9c61740c2fd73c15e7b1ca5827b8f3c66fbe2
 
   ";
         // line 266
-        $this->loadTemplate("@PrestaShop/Admin/Product/ProductPage/product.html.twig", "@PrestaShop/Admin/Product/ProductPage/product.html.twig", 266, "408210128")->display(array_merge($context, array("id" => "confirmation_modal", "title" => $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("Warning", array(), "Admin.Notifications.Warning"), "closable" => false, "actions" => array(0 => array("type" => "button", "label" => $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("No", array(), "Admin.Global"), "class" => "btn btn-outline-secondary btn-lg cancel"), 1 => array("type" => "button", "label" => $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("Yes", array(), "Admin.Global"), "class" => "btn btn-primary btn-lg continue")))));
+        $this->loadTemplate("@PrestaShop/Admin/Product/ProductPage/product.html.twig", "@PrestaShop/Admin/Product/ProductPage/product.html.twig", 266, "1265594525")->display(array_merge($context, array("id" => "confirmation_modal", "title" => $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("Warning", array(), "Admin.Notifications.Warning"), "closable" => false, "actions" => array(0 => array("type" => "button", "label" => $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("No", array(), "Admin.Global"), "class" => "btn btn-outline-secondary btn-lg cancel"), 1 => array("type" => "button", "label" => $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("Yes", array(), "Admin.Global"), "class" => "btn btn-primary btn-lg continue")))));
         // line 287
         echo "
 ";
@@ -640,7 +640,7 @@ class __TwigTemplate_df3acbf601aaa93dde117c9c61740c2fd73c15e7b1ca5827b8f3c66fbe2
 
 
 /* @PrestaShop/Admin/Product/ProductPage/product.html.twig */
-class __TwigTemplate_df3acbf601aaa93dde117c9c61740c2fd73c15e7b1ca5827b8f3c66fbe2ef7b3_408210128 extends Twig_Template
+class __TwigTemplate_df3acbf601aaa93dde117c9c61740c2fd73c15e7b1ca5827b8f3c66fbe2ef7b3_1265594525 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {

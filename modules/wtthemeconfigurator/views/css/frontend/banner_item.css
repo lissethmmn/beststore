@@ -1,10 +1,10 @@
-#htmlcontent_left ul li{overflow:hidden;text-align:center}
-#htmlcontent_left ul li img{max-width:100%;}
-#htmlcontent_left ul li.htmlcontent-item-1{margin-bottom:30px;}
-
-@media (max-width: 767px ) {
-	#htmlcontent_left {
-		margin-bottom:25px;
-	}
-}
-
+#htmlcontent_left ul li{overflow:hidden;text-align:center}
+#htmlcontent_left ul li img{max-width:100%;}
+#htmlcontent_left ul li.htmlcontent-item-1{margin-bottom:30px;}
+
+@media (max-width: 767px ) {
+	#htmlcontent_left {
+		margin-bottom:25px;
+	}
+}
+

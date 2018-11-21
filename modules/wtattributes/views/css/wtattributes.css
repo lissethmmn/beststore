@@ -1,19 +1,19 @@
-
-.wt_size{
--webkit-transition: all 0.8s;
-	-moz-transition: all 0.8s;
-	-o-transition: all 0.8s;
-	transition: all 0.8s;
-}
-.wt_size span{color: #666; font-size: 12px; font-style: italic; vertical-align: 1px; display: none; }
-
-.wt_size ul li{ min-width: 38px; background: #fff;padding:3px;float: left; line-height: 13px; font-size: 13px;text-align: center; margin: 0 2px; color: #666; border: 1px solid #f2f2f2; }
-
-.wt_color{margin-top: 5px; overflow: hidden; }
-.wt_color span{display: none; color: #666; font-size: 12px; font-style: italic; vertical-align: 1px;}
-.wt_color ul{display: inline-block;}
-.wt_color ul li{ float: left; width: 12px; border:1px solid #f0f0f0; height: 12px; font-size: 13px;text-align: center; margin: 0 5px; color: #666; border-radius: 100%;}
-#category .product_list.list .wt_size, #module-wtblocksearch-catesearch .product_list .wt_size{position:static; opacity:1;top:100%;left:0; margin-top: 5px; margin-bottom: 5px;}
-@media (min-width: 992px) and (max-width: 1199px){
-	.list_carousel .product_list .wt_size{display:none;}
+
+.wt_size{
+-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	transition: all 0.8s;
+}
+.wt_size span{color: #666; font-size: 12px; font-style: italic; vertical-align: 1px; display: none; }
+
+.wt_size ul li{ min-width: 38px; background: #fff;padding:3px;float: left; line-height: 13px; font-size: 13px;text-align: center; margin: 0 2px; color: #666; border: 1px solid #f2f2f2; }
+
+.wt_color{margin-top: 5px; overflow: hidden; }
+.wt_color span{display: none; color: #666; font-size: 12px; font-style: italic; vertical-align: 1px;}
+.wt_color ul{display: inline-block;}
+.wt_color ul li{ float: left; width: 12px; border:1px solid #f0f0f0; height: 12px; font-size: 13px;text-align: center; margin: 0 5px; color: #666; border-radius: 100%;}
+#category .product_list.list .wt_size, #module-wtblocksearch-catesearch .product_list .wt_size{position:static; opacity:1;top:100%;left:0; margin-top: 5px; margin-bottom: 5px;}
+@media (min-width: 992px) and (max-width: 1199px){
+	.list_carousel .product_list .wt_size{display:none;}
 }

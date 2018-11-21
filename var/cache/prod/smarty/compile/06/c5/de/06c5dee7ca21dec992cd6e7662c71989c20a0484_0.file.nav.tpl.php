@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-20 17:01:40
+/* Smarty version 3.1.32, created on 2018-11-21 13:25:48
   from 'C:\xampp\htdocs\17beststore\adminbs\themes\default\template\nav.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bf46824bc8144_12451427',
+  'unifunc' => 'content_5bf5870c6cf7f6_44149053',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bf46824bc8144_12451427 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf5870c6cf7f6_44149053 (Smarty_Internal_Template $_smarty_tpl) {
 ?><nav class="nav-bar d-none d-md-block" role="navigation" id="nav-sidebar">
 	<span class="menu-collapse">
 		<i class="material-icons">chevron_left</i>

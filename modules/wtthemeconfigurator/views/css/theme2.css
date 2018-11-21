@@ -1,415 +1,415 @@
-/* line 12, ../sass/theme2.scss */
-a:hover {
-  color: #d9001f;
-}
-
-/* line 16, ../sass/theme2.scss */
-.hook-top {
-  background-color: #d9001f;
-}
-
-/* line 19, ../sass/theme2.scss */
-#header_links li:hover {
-  color: #d9001f;
-}
-
-/* line 22, ../sass/theme2.scss */
-#categories_block_top > a {
-  background-color: #a60018;
-}
-
-/* line 27, ../sass/theme2.scss */
-#categories_block_left ul.tree > li.parent:hover:after, #categories_block_left ul.tree ul.col-menu-1 li.parent:hover:after {
-  color: #d9001f;
-}
-
-/* line 32, ../sass/theme2.scss */
-.header_user_info .login {
-  color: #3ba522;
-}
-/* line 34, ../sass/theme2.scss */
-.header_user_info .login:hover {
-  color: #d9001f;
-}
-
-/* line 38, ../sass/theme2.scss */
-#page .tp-bullets.simplebullets.round .bullet {
-  background-image: url(../img/slider1.png);
-}
-
-/* line 42, ../sass/theme2.scss */
-#menu ul li a.title_menu_parent:hover {
-  border-color: #3ba522;
-  color: #3ba522;
-}
-
-/* line 47, ../sass/theme2.scss */
-#menu .menu_h3 a, #categories_block_left ul.col-menu-2 > li.level-2.parent > a,
-#categories_block_left ul.col-menu-3 > li.level-2.parent > a {
-  color: #d9001f;
-}
-
-/* line 52, ../sass/theme2.scss */
-#page #shopping_cart > a:hover {
-  background-color: #a60018;
-}
-/* line 55, ../sass/theme2.scss */
-#page #shopping_cart .title_block_cart {
-  color: #d9001f;
-}
-
-/* line 60, ../sass/theme2.scss */
-#page .cart_block .cart_block_list .ajax_cart_block_remove_link:hover {
-  color: #d9001f;
-}
-/* line 63, ../sass/theme2.scss */
-#page .cart_block .cart-prices .cart-prices-line .price {
-  color: #d9001f;
-}
-
-/* line 69, ../sass/theme2.scss */
-.name_product a:hover, .subcategory-name:hover, .product_list h5 a:hover {
-  color: #d9001f;
-}
-
-/* line 73, ../sass/theme2.scss */
-.block .products-block li .product-content h5 a:hover {
-  color: #d9001f;
-}
-
-/* line 77, ../sass/theme2.scss */
-.block .title_block, .block h4 {
-  background-color: #d9001f;
-  border-bottom-color: #a60018;
-}
-
-/* line 81, ../sass/theme2.scss */
-.tags_block .block_content a:hover {
-  border-color: #d9001f;
-}
-
-/* line 85, ../sass/theme2.scss */
-.footer-container {
-  background-color: #1b1b1b;
-}
-/* line 88, ../sass/theme2.scss */
-.footer-container #footer h4, .footer-container #footer h4 a {
-  color: #fff;
-  border-bottom-color: #3d3d3d;
-}
-/* line 92, ../sass/theme2.scss */
-.footer-container #footer #blog_lastest_posts_footer h3 a {
-  color: #d9001f;
-}
-/* line 95, ../sass/theme2.scss */
-.footer-container #footer #social_block ul li a {
-  background-color: #fff;
-}
-/* line 97, ../sass/theme2.scss */
-.footer-container #footer #social_block ul li a:hover {
-  background-color: #d9001f;
-  border-color: #d9001f;
-  border-bottom-color: #a60018;
-}
-/* line 103, ../sass/theme2.scss */
-.footer-container #footer ul.toggle-footer li {
-  background-image: url(../img/lifooter.png);
-}
-
-/* line 108, ../sass/theme2.scss */
-#footer_bottom {
-  border-top-color: #3d3d3d;
-}
-/* line 110, ../sass/theme2.scss */
-#footer_bottom a:hover {
-  color: #d9001f;
-}
-
-/* line 114, ../sass/theme2.scss */
-.list_manufacturer.responsive {
-  border-bottom-color: #3d3d3d;
-}
-
-/* line 117, ../sass/theme2.scss */
-.manufacturerContainer a.btn_slide {
-  background-image: url(../img/next-prevmanu.png);
-}
-
-/* line 121, ../sass/theme2.scss */
-#page .ui-tabs-nav li.ui-tabs-selected, #page .ui-tabs-nav li:hover {
-  border-bottom-color: #3ba522;
-}
-/* line 123, ../sass/theme2.scss */
-#page .ui-tabs-nav li.ui-tabs-selected a, #page .ui-tabs-nav li:hover a {
-  color: #3ba522;
-}
-
-/* line 127, ../sass/theme2.scss */
-.homecategoryfeature h4 a:hover {
-  color: #d9001f;
-}
-
-/* line 130, ../sass/theme2.scss */
-a.btn_slide, #center_column .bx-wrapper .bx-controls .bx-controls-direction a {
-  background-image: url(../img/next-prev1.png);
-}
-
-/* line 133, ../sass/theme2.scss */
-a.cs_buttoncart {
-  background-color: #d9001f;
-  border-color: #d9001f;
-  border-bottom-color: #a60018;
-}
-/* line 137, ../sass/theme2.scss */
-a.cs_buttoncart span {
-  background-image: url(../img/bg-cart1.png);
-}
-/* line 140, ../sass/theme2.scss */
-a.cs_buttoncart:hover {
-  color: #d9001f;
-}
-
-/* line 145, ../sass/theme2.scss */
-#page .cshft-layout-1 a.cs_buttoncart:hover, .csshopping a.cs_buttoncart:hover, ul.product_list.list a.cs_buttoncart:hover {
-  color: #d9001f;
-}
-
-/* line 149, ../sass/theme2.scss */
-ul.product_list.list a.cs_buttoncart span {
-  background-color: #a60018;
-}
-
-/* line 154, ../sass/theme2.scss */
-.functional-buttons > div > a:hover {
-  border-color: #3ba522;
-}
-/* line 157, ../sass/theme2.scss */
-.functional-buttons > div > a.add_to_compare.checked {
-  border-color: #3ba522;
-}
-/* line 160, ../sass/theme2.scss */
-.functional-buttons > div > a.add_to_compare {
-  background-image: url(../img/bg-compare1.png);
-}
-/* line 163, ../sass/theme2.scss */
-.functional-buttons > div > a.addToWishlist {
-  background-image: url(../img/bg-whlist1.png);
-}
-
-/* line 169, ../sass/theme2.scss */
-.btn-default {
-  background-color: #3ba522;
-  border-color: #3ba522;
-}
-/* line 172, ../sass/theme2.scss */
-.btn-default:hover {
-  color: #3ba522;
-}
-
-/* line 176, ../sass/theme2.scss */
-.button.exclusive-medium {
-  background-color: #ff8401;
-  border-color: #ff8401;
-}
-/* line 179, ../sass/theme2.scss */
-.button.exclusive-medium:hover {
-  color: #ff8401;
-}
-
-/* line 183, ../sass/theme2.scss */
-#wishlist_button:hover {
-  color: #d9001f;
-}
-
-/* line 186, ../sass/theme2.scss */
-.button-medium.exclusive, .address_add.submit .button, #address_invoice_form .button, .cart_navigation .button-medium {
-  background-color: #d9001f;
-  border-color: #d9001f;
-}
-/* line 189, ../sass/theme2.scss */
-.button-medium.exclusive:hover, .address_add.submit .button:hover, #address_invoice_form .button:hover, .cart_navigation .button-medium:hover {
-  color: #d9001f;
-}
-
-/* line 194, ../sass/theme2.scss */
-ul.pagination li.current > span, ul.pagination li > a:hover {
-  border-color: #d9001f;
-  color: #d9001f;
-}
-
-/* line 198, ../sass/theme2.scss */
-ul.pagination li.pagination_previous > a:hover, ul.pagination li.pagination_next > a:hover {
-  border-color: #d9001f;
-}
-
-/* line 201, ../sass/theme2.scss */
-div.star.star_on:after {
-  color: #3ba522;
-}
-
-/* line 204, ../sass/theme2.scss */
-.display li.selected a, .display_m li.selected a {
-  color: #d9001f;
-}
-
-/* line 208, ../sass/theme2.scss */
-h3.page-product-heading span {
-  color: #3ba522;
-  border-bottom-color: #3ba522;
-}
-
-/* line 212, ../sass/theme2.scss */
-#add_to_cart .exclusive, .button.ajax_add_to_cart_button {
-  border-color: #f71031;
-  border-bottom-color: #a60018;
-  background-color: #f71031;
-}
-/* line 216, ../sass/theme2.scss */
-#add_to_cart .exclusive:before, .button.ajax_add_to_cart_button:before {
-  background-color: #d9001f;
-  border-bottom-color: #a60018;
-}
-/* line 220, ../sass/theme2.scss */
-#add_to_cart .exclusive:hover, .button.ajax_add_to_cart_button:hover {
-  color: #d9001f;
-}
-
-/* line 226, ../sass/theme2.scss */
-#page #layer_cart h2.title {
-  color: #d9001f;
-}
-/* line 229, ../sass/theme2.scss */
-#page #layer_cart .layer_cart_cart .layer_cart_row span {
-  color: #d9001f;
-}
-/* line 232, ../sass/theme2.scss */
-#page #layer_cart .cross:hover {
-  color: #d9001f;
-}
-
-/* line 236, ../sass/theme2.scss */
-ul.step li.step_current {
-  background-color: #d9001f;
-}
-
-/* line 239, ../sass/theme2.scss */
-#cart_summary tfoot td.price {
-  color: #d9001f;
-}
-
-/* line 242, ../sass/theme2.scss */
-.address li.address_update a {
-  color: #d9001f;
-}
-
-/* line 245, ../sass/theme2.scss */
-.footer_links .button:hover {
-  color: #d9001f;
-}
-
-/* line 248, ../sass/theme2.scss */
-.fancybox-skin .fancybox-close:hover {
-  color: #d9001f;
-}
-
-/* line 252, ../sass/theme2.scss */
-#my-account ul.myaccount-link-list li a:hover {
-  border-color: #d9001f;
-}
-
-/* line 255, ../sass/theme2.scss */
-.label-info {
-  border-color: #d9001f;
-  background-color: #d9001f;
-}
-
-/* line 260, ../sass/theme2.scss */
-table#product_comparison .remove a:hover {
-  color: #d9001f;
-}
-
-/* line 264, ../sass/theme2.scss */
-#columns .author {
-  color: #d9001f;
-}
-
-/* line 268, ../sass/theme2.scss */
-.menu-toggle, #megamenu-responsive .root > ul a:hover {
-  border-color: #d9001f;
-  color: #d9001f;
-}
-
-/* line 276, ../sass/theme2.scss */
-#megamenu-responsive li.parent > p {
-  background-color: #d9001f;
-}
-
-/* store 1 */
-/* line 281, ../sass/theme2.scss */
-#page .cshft-layout-1 a.cs_buttoncart span, .csshopping a.cs_buttoncart span {
-  background-color: #a60018;
-}
-
-/* line 284, ../sass/theme2.scss */
-#footer #newsletter_block_left h4 {
-  color: #fff;
-}
-
-/* line 288, ../sass/theme2.scss */
-.cs_static3 li > a {
-  background-color: #d9001f;
-}
-/* line 291, ../sass/theme2.scss */
-.cs_static3 h5 a:hover {
-  color: #d9001f;
-}
-/* line 294, ../sass/theme2.scss */
-.cs_static3 .viewmore {
-  color: #d9001f;
-  background-image: url(../img/bg-viewmore.png);
-}
-
-/* store 2 */
-/* line 300, ../sass/theme2.scss */
-.store3 #page .hook-top .container > .row {
-  background-color: #d9001f;
-}
-
-/* line 303, ../sass/theme2.scss */
-#page .home_prod_filter h4 a:hover {
-  color: #d9001f;
-}
-
-/* mobile */
-/* line 307, ../sass/theme2.scss */
-#page .title_tab_hide_show h4:hover {
-  border-color: #d9001f;
-}
-/* line 309, ../sass/theme2.scss */
-#page .title_tab_hide_show h4:hover a {
-  color: #d9001f;
-}
-
-/* line 314, ../sass/theme2.scss */
-.static-block-top-footer li img:hover {
-  border-color: #d9001f;
-}
-
-/* modules hometab store lingries */
-/* line 320, ../sass/theme2.scss */
-.store4 #page .home_top_tab #ul_cs_tab {
-  background-color: #d9001f;
-  border-bottom-color: #a60018;
-}
-/* line 323, ../sass/theme2.scss */
-.store4 #page .home_top_tab #ul_cs_tab li a {
-  color: #ff7387;
-}
-/* line 328, ../sass/theme2.scss */
-.store4 #page .home_top_tab a.cs_buttoncart span {
-  background-color: #a60018;
-}
-/* line 331, ../sass/theme2.scss */
-.store4 #page .home_top_tab a.cs_buttoncart:hover {
-  color: #d9001f;
-}
+/* line 12, ../sass/theme2.scss */
+a:hover {
+  color: #d9001f;
+}
+
+/* line 16, ../sass/theme2.scss */
+.hook-top {
+  background-color: #d9001f;
+}
+
+/* line 19, ../sass/theme2.scss */
+#header_links li:hover {
+  color: #d9001f;
+}
+
+/* line 22, ../sass/theme2.scss */
+#categories_block_top > a {
+  background-color: #a60018;
+}
+
+/* line 27, ../sass/theme2.scss */
+#categories_block_left ul.tree > li.parent:hover:after, #categories_block_left ul.tree ul.col-menu-1 li.parent:hover:after {
+  color: #d9001f;
+}
+
+/* line 32, ../sass/theme2.scss */
+.header_user_info .login {
+  color: #3ba522;
+}
+/* line 34, ../sass/theme2.scss */
+.header_user_info .login:hover {
+  color: #d9001f;
+}
+
+/* line 38, ../sass/theme2.scss */
+#page .tp-bullets.simplebullets.round .bullet {
+  background-image: url(../img/slider1.png);
+}
+
+/* line 42, ../sass/theme2.scss */
+#menu ul li a.title_menu_parent:hover {
+  border-color: #3ba522;
+  color: #3ba522;
+}
+
+/* line 47, ../sass/theme2.scss */
+#menu .menu_h3 a, #categories_block_left ul.col-menu-2 > li.level-2.parent > a,
+#categories_block_left ul.col-menu-3 > li.level-2.parent > a {
+  color: #d9001f;
+}
+
+/* line 52, ../sass/theme2.scss */
+#page #shopping_cart > a:hover {
+  background-color: #a60018;
+}
+/* line 55, ../sass/theme2.scss */
+#page #shopping_cart .title_block_cart {
+  color: #d9001f;
+}
+
+/* line 60, ../sass/theme2.scss */
+#page .cart_block .cart_block_list .ajax_cart_block_remove_link:hover {
+  color: #d9001f;
+}
+/* line 63, ../sass/theme2.scss */
+#page .cart_block .cart-prices .cart-prices-line .price {
+  color: #d9001f;
+}
+
+/* line 69, ../sass/theme2.scss */
+.name_product a:hover, .subcategory-name:hover, .product_list h5 a:hover {
+  color: #d9001f;
+}
+
+/* line 73, ../sass/theme2.scss */
+.block .products-block li .product-content h5 a:hover {
+  color: #d9001f;
+}
+
+/* line 77, ../sass/theme2.scss */
+.block .title_block, .block h4 {
+  background-color: #d9001f;
+  border-bottom-color: #a60018;
+}
+
+/* line 81, ../sass/theme2.scss */
+.tags_block .block_content a:hover {
+  border-color: #d9001f;
+}
+
+/* line 85, ../sass/theme2.scss */
+.footer-container {
+  background-color: #1b1b1b;
+}
+/* line 88, ../sass/theme2.scss */
+.footer-container #footer h4, .footer-container #footer h4 a {
+  color: #fff;
+  border-bottom-color: #3d3d3d;
+}
+/* line 92, ../sass/theme2.scss */
+.footer-container #footer #blog_lastest_posts_footer h3 a {
+  color: #d9001f;
+}
+/* line 95, ../sass/theme2.scss */
+.footer-container #footer #social_block ul li a {
+  background-color: #fff;
+}
+/* line 97, ../sass/theme2.scss */
+.footer-container #footer #social_block ul li a:hover {
+  background-color: #d9001f;
+  border-color: #d9001f;
+  border-bottom-color: #a60018;
+}
+/* line 103, ../sass/theme2.scss */
+.footer-container #footer ul.toggle-footer li {
+  background-image: url(../img/lifooter.png);
+}
+
+/* line 108, ../sass/theme2.scss */
+#footer_bottom {
+  border-top-color: #3d3d3d;
+}
+/* line 110, ../sass/theme2.scss */
+#footer_bottom a:hover {
+  color: #d9001f;
+}
+
+/* line 114, ../sass/theme2.scss */
+.list_manufacturer.responsive {
+  border-bottom-color: #3d3d3d;
+}
+
+/* line 117, ../sass/theme2.scss */
+.manufacturerContainer a.btn_slide {
+  background-image: url(../img/next-prevmanu.png);
+}
+
+/* line 121, ../sass/theme2.scss */
+#page .ui-tabs-nav li.ui-tabs-selected, #page .ui-tabs-nav li:hover {
+  border-bottom-color: #3ba522;
+}
+/* line 123, ../sass/theme2.scss */
+#page .ui-tabs-nav li.ui-tabs-selected a, #page .ui-tabs-nav li:hover a {
+  color: #3ba522;
+}
+
+/* line 127, ../sass/theme2.scss */
+.homecategoryfeature h4 a:hover {
+  color: #d9001f;
+}
+
+/* line 130, ../sass/theme2.scss */
+a.btn_slide, #center_column .bx-wrapper .bx-controls .bx-controls-direction a {
+  background-image: url(../img/next-prev1.png);
+}
+
+/* line 133, ../sass/theme2.scss */
+a.cs_buttoncart {
+  background-color: #d9001f;
+  border-color: #d9001f;
+  border-bottom-color: #a60018;
+}
+/* line 137, ../sass/theme2.scss */
+a.cs_buttoncart span {
+  background-image: url(../img/bg-cart1.png);
+}
+/* line 140, ../sass/theme2.scss */
+a.cs_buttoncart:hover {
+  color: #d9001f;
+}
+
+/* line 145, ../sass/theme2.scss */
+#page .cshft-layout-1 a.cs_buttoncart:hover, .csshopping a.cs_buttoncart:hover, ul.product_list.list a.cs_buttoncart:hover {
+  color: #d9001f;
+}
+
+/* line 149, ../sass/theme2.scss */
+ul.product_list.list a.cs_buttoncart span {
+  background-color: #a60018;
+}
+
+/* line 154, ../sass/theme2.scss */
+.functional-buttons > div > a:hover {
+  border-color: #3ba522;
+}
+/* line 157, ../sass/theme2.scss */
+.functional-buttons > div > a.add_to_compare.checked {
+  border-color: #3ba522;
+}
+/* line 160, ../sass/theme2.scss */
+.functional-buttons > div > a.add_to_compare {
+  background-image: url(../img/bg-compare1.png);
+}
+/* line 163, ../sass/theme2.scss */
+.functional-buttons > div > a.addToWishlist {
+  background-image: url(../img/bg-whlist1.png);
+}
+
+/* line 169, ../sass/theme2.scss */
+.btn-default {
+  background-color: #3ba522;
+  border-color: #3ba522;
+}
+/* line 172, ../sass/theme2.scss */
+.btn-default:hover {
+  color: #3ba522;
+}
+
+/* line 176, ../sass/theme2.scss */
+.button.exclusive-medium {
+  background-color: #ff8401;
+  border-color: #ff8401;
+}
+/* line 179, ../sass/theme2.scss */
+.button.exclusive-medium:hover {
+  color: #ff8401;
+}
+
+/* line 183, ../sass/theme2.scss */
+#wishlist_button:hover {
+  color: #d9001f;
+}
+
+/* line 186, ../sass/theme2.scss */
+.button-medium.exclusive, .address_add.submit .button, #address_invoice_form .button, .cart_navigation .button-medium {
+  background-color: #d9001f;
+  border-color: #d9001f;
+}
+/* line 189, ../sass/theme2.scss */
+.button-medium.exclusive:hover, .address_add.submit .button:hover, #address_invoice_form .button:hover, .cart_navigation .button-medium:hover {
+  color: #d9001f;
+}
+
+/* line 194, ../sass/theme2.scss */
+ul.pagination li.current > span, ul.pagination li > a:hover {
+  border-color: #d9001f;
+  color: #d9001f;
+}
+
+/* line 198, ../sass/theme2.scss */
+ul.pagination li.pagination_previous > a:hover, ul.pagination li.pagination_next > a:hover {
+  border-color: #d9001f;
+}
+
+/* line 201, ../sass/theme2.scss */
+div.star.star_on:after {
+  color: #3ba522;
+}
+
+/* line 204, ../sass/theme2.scss */
+.display li.selected a, .display_m li.selected a {
+  color: #d9001f;
+}
+
+/* line 208, ../sass/theme2.scss */
+h3.page-product-heading span {
+  color: #3ba522;
+  border-bottom-color: #3ba522;
+}
+
+/* line 212, ../sass/theme2.scss */
+#add_to_cart .exclusive, .button.ajax_add_to_cart_button {
+  border-color: #f71031;
+  border-bottom-color: #a60018;
+  background-color: #f71031;
+}
+/* line 216, ../sass/theme2.scss */
+#add_to_cart .exclusive:before, .button.ajax_add_to_cart_button:before {
+  background-color: #d9001f;
+  border-bottom-color: #a60018;
+}
+/* line 220, ../sass/theme2.scss */
+#add_to_cart .exclusive:hover, .button.ajax_add_to_cart_button:hover {
+  color: #d9001f;
+}
+
+/* line 226, ../sass/theme2.scss */
+#page #layer_cart h2.title {
+  color: #d9001f;
+}
+/* line 229, ../sass/theme2.scss */
+#page #layer_cart .layer_cart_cart .layer_cart_row span {
+  color: #d9001f;
+}
+/* line 232, ../sass/theme2.scss */
+#page #layer_cart .cross:hover {
+  color: #d9001f;
+}
+
+/* line 236, ../sass/theme2.scss */
+ul.step li.step_current {
+  background-color: #d9001f;
+}
+
+/* line 239, ../sass/theme2.scss */
+#cart_summary tfoot td.price {
+  color: #d9001f;
+}
+
+/* line 242, ../sass/theme2.scss */
+.address li.address_update a {
+  color: #d9001f;
+}
+
+/* line 245, ../sass/theme2.scss */
+.footer_links .button:hover {
+  color: #d9001f;
+}
+
+/* line 248, ../sass/theme2.scss */
+.fancybox-skin .fancybox-close:hover {
+  color: #d9001f;
+}
+
+/* line 252, ../sass/theme2.scss */
+#my-account ul.myaccount-link-list li a:hover {
+  border-color: #d9001f;
+}
+
+/* line 255, ../sass/theme2.scss */
+.label-info {
+  border-color: #d9001f;
+  background-color: #d9001f;
+}
+
+/* line 260, ../sass/theme2.scss */
+table#product_comparison .remove a:hover {
+  color: #d9001f;
+}
+
+/* line 264, ../sass/theme2.scss */
+#columns .author {
+  color: #d9001f;
+}
+
+/* line 268, ../sass/theme2.scss */
+.menu-toggle, #megamenu-responsive .root > ul a:hover {
+  border-color: #d9001f;
+  color: #d9001f;
+}
+
+/* line 276, ../sass/theme2.scss */
+#megamenu-responsive li.parent > p {
+  background-color: #d9001f;
+}
+
+/* store 1 */
+/* line 281, ../sass/theme2.scss */
+#page .cshft-layout-1 a.cs_buttoncart span, .csshopping a.cs_buttoncart span {
+  background-color: #a60018;
+}
+
+/* line 284, ../sass/theme2.scss */
+#footer #newsletter_block_left h4 {
+  color: #fff;
+}
+
+/* line 288, ../sass/theme2.scss */
+.cs_static3 li > a {
+  background-color: #d9001f;
+}
+/* line 291, ../sass/theme2.scss */
+.cs_static3 h5 a:hover {
+  color: #d9001f;
+}
+/* line 294, ../sass/theme2.scss */
+.cs_static3 .viewmore {
+  color: #d9001f;
+  background-image: url(../img/bg-viewmore.png);
+}
+
+/* store 2 */
+/* line 300, ../sass/theme2.scss */
+.store3 #page .hook-top .container > .row {
+  background-color: #d9001f;
+}
+
+/* line 303, ../sass/theme2.scss */
+#page .home_prod_filter h4 a:hover {
+  color: #d9001f;
+}
+
+/* mobile */
+/* line 307, ../sass/theme2.scss */
+#page .title_tab_hide_show h4:hover {
+  border-color: #d9001f;
+}
+/* line 309, ../sass/theme2.scss */
+#page .title_tab_hide_show h4:hover a {
+  color: #d9001f;
+}
+
+/* line 314, ../sass/theme2.scss */
+.static-block-top-footer li img:hover {
+  border-color: #d9001f;
+}
+
+/* modules hometab store lingries */
+/* line 320, ../sass/theme2.scss */
+.store4 #page .home_top_tab #ul_cs_tab {
+  background-color: #d9001f;
+  border-bottom-color: #a60018;
+}
+/* line 323, ../sass/theme2.scss */
+.store4 #page .home_top_tab #ul_cs_tab li a {
+  color: #ff7387;
+}
+/* line 328, ../sass/theme2.scss */
+.store4 #page .home_top_tab a.cs_buttoncart span {
+  background-color: #a60018;
+}
+/* line 331, ../sass/theme2.scss */
+.store4 #page .home_top_tab a.cs_buttoncart:hover {
+  color: #d9001f;
+}

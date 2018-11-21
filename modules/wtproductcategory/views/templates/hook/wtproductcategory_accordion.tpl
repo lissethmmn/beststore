@@ -32,6 +32,10 @@
 <div class="block-content clearfix">
 	<div id="wt-prod-cat-{$cat_info.id_cat|intval}" class="row">
 	
+		
+		
+		
+		
 		<div class="block-products col-sm-6 col-md-9 {if $dem%2 ==0}right{/if}">
 			
 					{if $cat_info.cat_icon!='' }
@@ -60,7 +64,17 @@
 									
 							{include file='./medium_item.tpl'}				
 
+						
+						
+						
+			
+						
+						
+						
+						
 						</li>
+					
+						
 						
 						{/foreach}
 						</ul>

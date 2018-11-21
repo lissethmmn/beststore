@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-20 17:33:44
+/* Smarty version 3.1.32, created on 2018-11-21 14:57:38
   from 'module:wtajaxcartviewstemplatesf' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bf46fa8213615_24549136',
+  'unifunc' => 'content_5bf59c92a37512_67821524',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f10eb5b723de904102c69edd813ff3ebfe521ccd' => 
     array (
       0 => 'module:wtajaxcartviewstemplatesf',
-      1 => 1541585239,
+      1 => 1542816184,
       2 => 'module',
     ),
   ),
@@ -20,21 +20,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bf46fa8213615_24549136 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf59c92a37512_67821524 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
-
-
 <div class="ajax-cart-container">
-
           <div class="card-block">
-
             <h1 class="h1"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Shopping Cart','d'=>'Shop.Theme.Checkout'),$_smarty_tpl ) );?>
 </h1>
-
           </div>
-
           <p class="no-items"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'There are no more items in your cart','d'=>'Shop.Theme.Checkout'),$_smarty_tpl ) );?>
 </p>
-
 </div><?php }
 }

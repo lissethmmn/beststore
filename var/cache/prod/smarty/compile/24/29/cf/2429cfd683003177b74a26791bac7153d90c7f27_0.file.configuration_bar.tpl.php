@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-16 18:28:46
+/* Smarty version 3.1.32, created on 2018-11-21 13:25:46
   from 'C:\xampp\htdocs\17beststore\adminbs\themes\default\template\controllers\modules\configuration_bar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bef368e4bf120_17504979',
+  'unifunc' => 'content_5bf5870ad82ac7_40229712',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bef368e4bf120_17504979 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf5870ad82ac7_40229712 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\17beststore\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.regex_replace.php','function'=>'smarty_modifier_regex_replace',),));
 $_smarty_tpl->_assignInScope('module_name', call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['module_name']->value,'html','UTF-8' )));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, 'default', null, null);
